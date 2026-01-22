@@ -1,1 +1,1044 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
+<style>
+label {
+color:white;
+}
+body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #2e3244 0%, #36224b 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+button {
+    background-color: blue;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    border-color: black;
+    color: white;
+    margin: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-style: normal; 
+    font-variant: normal;
+}
+</style>
+<form>
+    <label for="pswd" id='g'>Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPassword();" />
+</form>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Password Protected Page</title>
+    <script>
+        function checkPassword() {
+            async function fetchTxtFile() { 
+                try {
+                const response = await fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/password@latest/vuu.js');
+                if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const text = await response.text();
+                
+                return text;
+                } catch (error) {
+                alert('Error fetching the file:');
+                }
+                }
+                
+            fetchTxtFile().then(result => {
+                var password = result.trim();
+                
+                var userInput = document.getElementById("pswd").value;
+        
+                if (userInput === password) {
+                    // Password is correct, show the content
+                    document.getElementById("protectedContent").style.display = "block";
+    
+                } else {
+                    // Password is incorrect, redirect or show an error
+                    alert("Incorrect password. You will be redirected.");
+               
+                }
+            });
+        }
+        
+    </script>
+</head>
+<body>
+    <div id="protectedContent" style="display:none;">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openBlankWithHTML()">Infiltrating Sam's Club</button>
 
+    <script>
+function openBlankWithHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/infiltratingsamsclub/greg.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newWin = window.open("about:blank", "_blank");
+                                    if (newWin) {
+                                        newWin.document.open();
+                                        newWin.document.write(text);
+                                        newWin.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openBlnkWithHTML()">gn-math</button>
+
+    <script>
+function openBlnkWithHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/craep0/gn-math.github.io/singlefile.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newin = window.open("about:blank", "_blank");
+                                    if (newin) {
+                                        newin.document.open();
+                                        newin.document.write(text);
+                                        newin.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <a target="_blank" href="https://padlet-uploads-usc1.storage.googleapis.com/4369598499/2a26b31dd08da66f79aaa753b711cd3f/clSINGLEFILE.html"><button>Single File alt 1</button></a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openBnkWithHTML()">Henry Stickmin: Breaking the bank</button>
+
+    <script>
+function openBnkWithHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/stickyhenry/breakingthebank.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newin = window.open("about:blank", "_blank");
+                                    if (newin) {
+                                        newin.document.open();
+                                        newin.document.write(text);
+                                        newin.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openBkWithHTML()">Henry Stickmin: Infiltrating the air ship</button>
+
+    <script>
+function openBkWithHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/stickyhenry/infiltratingtheairship.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newin = window.open("about:blank", "_blank");
+                                    if (newin) {
+                                        newin.document.open();
+                                        newin.document.write(text);
+                                        newin.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openBWithHTML()">Jazz Jackrabbit</button>
+
+    <script>
+    
+function openBWithHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/jazzjackrabbit.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openWithHTML()">Single File Alt 2</button>
+
+    <script>
+function openWithHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/AASINGLEFILE.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newmn = window.open("about:blank", "_blank");
+                                    if (newmn) {
+                                        newmn.document.open();
+                                        newmn.document.write(text);
+                                        newmn.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<a href="https://studio.code.org/projects/weblab/GntS6LYA_0g9mCWkmypxBRQwOfa5KXjq31fVJJ9UNMQ/view" target="_blank"><button width="500" height="500">Single File alt link 3</button></a>
+
+<a href="https://studio.code.org/projects/weblab/F7vcG0yibHKkpWwCixPBveIxFcaTQL6QV55utIjTcsA/view" target="_blank"><button width="500" height="500">Gn math alt link</button></a>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openithHTML()">Henry Stickmin: Fleeing the complex</button>
+
+    <script>
+function openithHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/stickyhenry/fleeingthecomplex.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newin = window.open("about:blank", "_blank");
+                                    if (newin) {
+                                        newin.document.open();
+                                        newin.document.write(text);
+                                        newin.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openthHTML()">Henry Stickmin: Escaping the prison</button>
+
+    <script>
+function openthHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/stickyhenry/escapingtheprison.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newin = window.open("about:blank", "_blank");
+                                    if (newin) {
+                                        newin.document.open();
+                                        newin.document.write(text);
+                                        newin.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openhHTML()">Do you know da wae?</button>
+
+    <script>
+function openhHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/dawae/Ruffle.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newin = window.open("about:blank", "_blank");
+                                    if (newin) {
+                                        newin.document.open();
+                                        newin.document.write(text);
+                                        newin.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openHTML()">Aladdin</button>
+
+    <script>
+function openHTML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/aladdin.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openML()">Super Mario Land</button>
+
+    <script>
+function openML() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/supermarioland.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="openL()">Strange Mario Bros.</button>
+
+    <script>
+function openL() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/strangemario.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="ggggggggggg()">Mario Bros.</button>
+
+    <script>
+function ggggggggggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/mariobros.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                }); 
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="gggggggggg()">Kaizo Mario Bros. 3</button>
+
+    <script>
+function gggggggggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/kaizomario3.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="opel()">Sonic 2: The Lost Worlds</button>
+
+    <script>
+function opel() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/sonic2lostworlds.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<a target="_blank" href="https://codeprojects.org/projects/weblab/DuftVd000nx8WBKetiTMVy52arOyHembJbQlcYWMBSM/"><button>Minecraft (working) </button></a>
+<a target="_blank" href="https://codeprojects.org/projects/weblab/mulpLT6MhL4Tgk7ewmTG7ssobOh8YXGyvBwU3uBQSWI/"><button>Gn Math pointer lock</button></a>
+<a target="_blank" href="https://codeprojects.org/projects/weblab/mulpLT6MhL4Tgk7ewmTG7vOvGk7tUf4hDHwncrE0-xg/"><button>Single File pointer lock</button></a>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="ggggggggg()">Earthworm Jim</button>
+
+    <script>
+function ggggggggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/earthwormjim/ewj1.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="gggggggg()">Earthworm Jim 2</button>
+
+    <script>
+function gggggggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/earthwormjim/ewj2.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="ggggggg()">Earthworm Jim 3D</button>
+
+    <script>
+function ggggggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/earthwormjim/ewj3d.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="gggggg()">Earthworm Jim: Menace 2 the Galaxy</button>
+
+    <script>
+function gggggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/earthwormjim/ewjmenace2thegalaxy.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="ggggg()">Super Mario Bros. 2 Japan</button>
+
+    <script>
+function ggggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/supermariobros2japan.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="gggg()">Celeste if it was mario</button>
+
+    <script>
+function gggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/marioceleste.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="ggg()">Mario: Escape from alcatraz</button>
+
+    <script>
+function ggg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/escapefromalcatraz.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="gg()">Carl is Such a Nice Guy</button>
+
+    <script>
+function gg() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/carlissuchaniceguy.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open about:blank with HTML</title>
+</head>
+<body>
+    <button onclick="g()">Super Mario Bros 3mix</button>
+
+    <script>
+function g() {
+fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/3mix.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open("about:blank", "_blank");
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+              }
+    </script>
+</body>
+</html>
+
+<a target="_blank" href="https://unpkg.com/gn-math.github.io-main@1.0.5/index.html"><button>Gn math alt link 2</button></a>
+<a target="_blank" href="https://studio.code.org/projects/weblab/Jhuzzj4tlmwCTTiyf2Vg3T2njT1Fn5sIs8_YqL2lT98/view"><button>Gn math alt link 3</button></a>
+<a target="_blank" href="https://codeprojects.org/projects/weblab/5swTq5T0ZE-sD2h5eFvkbEUZTW9tW9DH_NI2-OWZcNs"><button>Minecraft 1.12</button></a>
+<a target="_blank" href="https://studio.code.org/projects/weblab/qT0oOxtKwG2dtEFDnI50qzf-tJEwnRdi6QuuYYaaPlQ/view"><button>gigglyfmap.w3spaces.com</button></a>
+<button onclick="(async()=>{try{const [t1,t2,t3,t4]=await Promise.all([fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_1.html').then(r=>r.text()),fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_2.html').then(r=>r.text()),fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_3.html').then(r=>r.text()),fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_4.html').then(r=>r.text())]);const combined=t1+t2+t3+t4;const newWin=window.open('about:blank','_blank');if(!newWin) return;newWin.document.open();newWin.document.write(combined);newWin.document.close();}catch(e){console.error(e);alert(e.message);}})()">Osu!</button>
+<button onclick="(async()=>{try{const [t1,t2,t3]=await Promise.all([fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/Super%20Mario%20Maker%204%20-%20A%20Platformer%20Creator%20-%20v1.2_1.html').then(r=>r.text()),fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/Super%20Mario%20Maker%204%20-%20A%20Platformer%20Creator%20-%20v1.2_2.html').then(r=>r.text()),fetch('https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/Super%20Mario%20Maker%204%20-%20A%20Platformer%20Creator%20-%20v1.2_3.html').then(r=>r.text())]);const combined=t1+t2+t3;const newWin=window.open('about:blank','_blank');if(!newWin) return;newWin.document.open();newWin.document.write(combined);newWin.document.close();}catch(e){console.error(e);alert(e.message);}})()">Super Mario Maker 4</button>
+<a target="_blank" href="https://docs.google.com/spreadsheets/d/1JOC0i0IHLBvcLTcVtVqsqfnqOu6OERqA6F6q1NAk_ao/edit?usp=sharing"><button>Mario Maker Level Codes</button></a>
+<a target="_blank" href="https://qhc7bddu.forms.app/project-request-form"><button>Game Request Form</button></a>
+<a target="_blank" href="https://studio.code.org/projects/weblab/94-bOvBItMglvb5udY0ozUM3ASw4B_iThhMy3L19Y-k/view"><button>Big Tower Tiny Square (not that good, kinda)</button></a>
+<button onclick='fetch(`https://cdn.jsdelivr.net/gh/incrediblewebsite/bigicetowertinysquare@master/index.html`).then(response => response.text()).then(text => {const html = `<base href="https://cdn.jsdelivr.net/gh/incrediblewebsite/bigicetowertinysquare@master/">` + text;const newen = window.open("about:blank", "_blank");if (newen) {newen.document.open();newen.document.write(html);newen.document.close();}});'>Big Ice Tower Tiny Square (good)</button>
+<button onclick='fetch(`https://cdn.jsdelivr.net/gh/brunoiscool2/unblockedgames/play/big-tower-tiny-square/index.html`).then(response => response.text()).then(text => {const html = `<base href="https://cdn.jsdelivr.net/gh/brunoiscool2/unblockedgames/play/big-tower-tiny-square/">` + text;const newen = window.open("about:blank", "_blank");if (newen) {newen.document.open();newen.document.write(html);newen.document.close();}});'>Big Tower Tiny Square (good)</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/battletoads.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Battletoads</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/ducktales.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Ducktales</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/gyromite.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Gyromite</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/iceclimbers.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Ice Climbers</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/kidicarus.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Kid Icarus</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/smm64.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Super Mario Maker 64</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/grandpooworld2.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Grand Poo World 2</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/grandpooworld.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Grand Poo World</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/dram3.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Super Dram World 3</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/dram2.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Super Dram World 2</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/dram.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Super Dram World</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/leegi.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Leegi DX</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/jumpman.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Jumpman LXIV</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/peachesfury.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Peach's Fury</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/lug.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">lug's delightful dioramas</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/garfield.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Garfield 64</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/supermeatboy/ruffle.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Super Meat Boy</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/battletoadsbattlemaniacs.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Battletoads in Battlemaniacs</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/battletoadsgb.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Battletoads GB</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/battletoadsragnarok.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Battletoads in Ragnarok's World</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/dpadhero.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Guitar Hero NES (D-Pad Hero)</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated/dpadhero2.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Guitar Hero 2 NES (D-Pad Hero 2)</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/flashgames/castlecat.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Castle Cat</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/flashgames/castlecat2.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Castle Cat 2</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/flashgames/castlecat3.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Castle Cat 3</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/flashgames/mariocombat.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">Mario-Combat</button>
+
+    <button onclick="fetch(`https://cdn.jsdelivr.net/gh/MRVAPORWAVE25/I-Wanna-Be-The-GuyWP/iwbtg.html`)
+                                .then(response => response.text())
+                                .then(text => {
+                                    const newen = window.open('about:blank', '_blank');
+                                    if (newen) {
+                                        newen.document.open();
+                                        newen.document.write(text);
+                                        newen.document.close();
+                                    }
+                                });
+">I Wanna Be The Guy</button>
+
+ <button onclick="fetch(`https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/nolanbetter.github.io@99f0962/index.html`).then(response => response.text()).then(text => {const combined = `<base href='https://cdn.jsdelivr.net/gh/NolanBetter/nolanbetter.github.io@master/'>` + text; const newen = window.open('about:blank', '_blank');if (newen) {newen.document.open();newen.document.write(combined);newen.document.close();}});">Nolan & Grayson Games</button>
+
+<a target="_blank" href="https://studio.code.org/projects/weblab/57e92bc9-f7ea-4b4d-a096-004e3202629d/view"><button>gigglyfmap about:blank</button></a>
+
+<button 
+        onclick='fetch("https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/godaddysites/index.html").then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
+        style="width: 100%; height: 100%; font-size: 100;"
+        >gigglyfmap about:blank 2</button>
+
+</div>
+</body>
+</html></body></body>
