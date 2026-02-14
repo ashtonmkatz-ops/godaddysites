@@ -1,3 +1,3 @@
 # godaddysites
 primary games site
-my godaddy site (https://site-f58gfifeb.godaddysites.com/)
+my godaddy site (site-3v2zlleru.godaddysites.com)
