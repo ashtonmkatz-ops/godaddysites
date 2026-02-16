@@ -1,31 +1,304 @@
 <head>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
 <style>
-label {
-color:white;
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
 }
+
 body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #2e3244 0%, #36224b 100%);
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-button {
-    background-color: blue;
-    width: 200px;
-    height: 70px;
-    border-radius: 5px;
-    border-color: black;
-    color: white;
-    margin: 16px;
-    justify-content: center;
+    font-family: 'Varela Round', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    font-family: "Century Gothic", Arial, sans-serif;
-    font-style: normal; 
-    font-variant: normal;
+    color: white;
+
+    background: radial-gradient(circle at 20% 30%, #1e3a8a 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, #7c3aed 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, #0f172a 0%, #020617 100%);
 }
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(270deg, #2563eb, #7c3aed, #2563eb);
+    background-size: 600% 600%;
+    animation: bgShift 20s linear infinite;
+    opacity: 0.08;
+    z-index: -1;
+}
+
+@keyframes bgShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+
+/* Password Form */
+form {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    padding: 30px 40px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+input[type="password"] {
+    padding: 12px 15px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+input[type="button"] {
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(45deg, #4f46e5, #9333ea);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+input[type="button"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(147, 51, 234, 0.4);
+}
+a {
+    text-decoration: none;
+}
+
+a button {
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+}
+
+button {
+    position: relative;
+    background: rgba(20, 20, 35, 0.9);
+    border: 2px solid #3b82f6;
+    border-radius: 18px;
+    padding: 20px;
+    font-size: 15px;
+    color: #93c5fd;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    width: 100%;
+    overflow: hidden;
+
+    box-shadow:
+        0 0 10px rgba(59,130,246,0.5),
+        0 0 25px rgba(59,130,246,0.3),
+        inset 0 0 10px rgba(59,130,246,0.3);
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 18px;
+    background: linear-gradient(
+        270deg,
+        #2563eb,
+        #7c3aed,
+        #2563eb
+    );
+    background-size: 600% 600%;
+    animation: buttonGlow 6s linear infinite;
+    z-index: -1;
+}
+
+@keyframes buttonGlow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+
+button:hover {
+    color: white;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+        0 0 15px rgba(59,130,246,0.9),
+        0 0 40px rgba(124,58,237,0.7),
+        inset 0 0 15px rgba(59,130,246,0.7);
+}
+
+button {
+    text-shadow:
+        0 0 5px rgba(59,130,246,0.8),
+        0 0 10px rgba(59,130,246,0.6);
+}
+
+/* Shared Neon Style */
+a button {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+    background: rgba(20, 20, 35, 0.9);
+    border: 2px solid #3b82f6;
+    border-radius: 18px;
+    padding: 20px;
+    font-size: 15px;
+    color: #93c5fd;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    width: 100%;
+    overflow: hidden;
+
+    box-shadow:
+        0 0 10px rgba(59,130,246,0.5),
+        0 0 25px rgba(59,130,246,0.3),
+        inset 0 0 10px rgba(59,130,246,0.3);
+}
+
+/* Remove default link styles */
+a.game-button {
+    color: #93c5fd;
+}
+
+/* Animated Glow Border */
+button::before,
+.game-button::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 18px;
+    background: linear-gradient(
+        270deg,
+        #2563eb,
+        #7c3aed,
+        #2563eb
+    );
+    background-size: 600% 600%;
+    animation: buttonGlow 6s linear infinite;
+    z-index: -1;
+}
+
+@keyframes buttonGlow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Hover Effect */
+button:hover,
+.game-button:hover {
+    color: white;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+        0 0 15px rgba(59,130,246,0.9),
+        0 0 40px rgba(124,58,237,0.7),
+        inset 0 0 15px rgba(59,130,246,0.7);
+}
+
+
+/* SEARCH CONTAINER */
+.search-container {
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+/* GLOW WRAPPER */
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    padding: 2px;
+    border-radius: 50px;
+    background: linear-gradient(
+        270deg,
+        #2563eb,
+        #3b82f6,
+        #7c3aed,
+        #2563eb
+    );
+    background-size: 600% 600%;
+    animation: glowMove 6s linear infinite;
+}
+
+/* ANIMATION */
+@keyframes glowMove {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* SEARCH BOX */
+.search-box {
+    position: relative;
+    width: 100%;
+}
+
+/* INPUT */
+.search-box input {
+    width: 100%;
+    padding: 16px 20px 16px 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: rgba(20, 20, 30, 0.9);
+    color: white;
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+}
+
+/* PLACEHOLDER */
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* SEARCH ICON */
+.search-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* FOCUS EFFECT */
+.search-box input:focus {
+    background: rgba(30, 30, 45, 1);
+    box-shadow:
+        0 0 15px rgba(59, 130, 246, 0.6),
+        0 0 35px rgba(124, 58, 237, 0.4);
+}
+
+#smokey-fluid-canvas {
+    position: fixed !important;
+    inset: 0 !important;          /* shorthand for top/right/bottom/left 0 */
+    width: 100vw !important;
+    height: 100vh !important;
+
+    z-index: 2147483647 !important;  /* maximum safe z-index */
+    pointer-events: none !important;
+
+    display: block !important;
+}
+
+
+
 </style>
 <form>
     <label for="pswd" id='g'>Enter your password: </label>
@@ -69,9 +342,49 @@ button {
         }
         
     </script>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const search = document.getElementById("searchInput");
+
+    search.addEventListener("keydown", function(e) {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            const text = search.value.trim();
+            if (text !== "") {
+                window.find(text); // triggers browser find
+            }
+        }
+    });
+});
+</script>
+
 </head>
 <body>
+    
+    <canvas id="smokey-fluid-canvas"></canvas>
+ 
+    <script type="module">
+      import { initFluid } from "https://cdn.jsdelivr.net/npm/smokey-fluid-cursor@latest/dist/index.mjs";
+
+      window.addEventListener("DOMContentLoaded", () => {
+        initFluid();
+      });
+    </script>
+    
     <div id="protectedContent" style="display:none;">
+        
+<div class="search-container">
+    <div class="search-wrapper">
+        <div class="search-box">
+            <span class="search-icon">🔎</span>
+            <input type="text" id="searchInput" placeholder="Search games... (Press Enter)">
+        </div>
+    </div>
+</div>
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
