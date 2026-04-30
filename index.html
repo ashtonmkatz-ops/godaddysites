@@ -507,6 +507,26 @@ button:active {
 
 
 </style>
+<script>
+(function() {
+    const originalFetch = window.fetch;
+
+    window.fetch = async function(url, options) {
+        const response = await originalFetch(url, options);
+        const text = await response.text();
+
+        // Replace cdn → fastly inside the fetched file
+        const modified = text.replace(/cdn/g, "fastly");
+
+        // Return a new Response object with the modified text
+        return new Response(modified, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: response.headers
+        });
+    };
+})();
+</script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -2191,4 +2211,4 @@ fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/earthwormjim/ewjmenace2the
 
 </div>
 </body>
-</html>
+</html>        
