@@ -661,7 +661,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <a target="_blank" href="https://qhc7bddu.forms.app/project-request-form"><button>Game Request Form</button></a>
 
-
+<button 
+        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/freebuisness.github.io@main/singlefile.html`).then(response => response.text()).then(text => {const html = text.replaceAll(`cdn`,`fastly`);const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
+        >Gn Math</button>
 
 <button 
         onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/elite-gamez.github.io/index.html`).then(response => response.text()).then(text => {const html = text.replaceAll(`cdn`,`fastly`);const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
