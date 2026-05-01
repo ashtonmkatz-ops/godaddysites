@@ -511,14 +511,27 @@ button:active {
 (function() {
     const originalFetch = window.fetch;
 
+    // URLs that should NOT be modified
+    const skipList = [
+        "freebuisness.github.io@main/singlefile.html",
+        "ugs-singlefile@main/AASINGLEFILE.html"
+    ];
+
     window.fetch = async function(url, options) {
+
+        // If URL matches skip list → return original fetch untouched
+        if (typeof url === "string" && skipList.some(skip => url.includes(skip))) {
+            return originalFetch(url, options);
+        }
+
+        // Otherwise fetch normally
         const response = await originalFetch(url, options);
         const text = await response.text();
 
-        // Replace cdn → fastly inside the fetched file
+        // Replace cdn → fastly inside fetched HTML
         const modified = text.replace(/cdn/g, "fastly");
 
-        // Return a new Response object with the modified text
+        // Return modified response
         return new Response(modified, {
             status: response.status,
             statusText: response.statusText,
@@ -527,6 +540,7 @@ button:active {
     };
 })();
 </script>
+
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -662,11 +676,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <a target="_blank" href="https://qhc7bddu.forms.app/project-request-form"><button>Game Request Form</button></a>
 
 <button 
-        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/freebuisness.github.io@main/singlefile.html`).then(response => response.text()).then(text => {const html = text.replaceAll(`cdn`,`fastly`);const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
+        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/freebuisness.github.io@main/singlefile.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
         >Gn Math</button>
 
         <button 
-        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/ugs-singlefile@main/AASINGLEFILE.html`).then(response => response.text()).then(text => {const html = text.replaceAll(`cdn`,`fastly`);const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
+        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/ugs-singlefile@main/AASINGLEFILE.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
         >Ultimate Game Stash</button>
 
 <button 
