@@ -519,19 +519,21 @@ button:active {
 
     window.fetch = async function(url, options) {
 
-        // If URL matches skip list → return original fetch untouched
+        // Skip replacement for specific URLs
         if (typeof url === "string" && skipList.some(skip => url.includes(skip))) {
             return originalFetch(url, options);
         }
 
-        // Otherwise fetch normally
         const response = await originalFetch(url, options);
-        const text = await response.text();
 
-        // Replace cdn → fastly inside fetched HTML
+        // Clone the response so we can read the body safely
+        const clone = response.clone();
+        const text = await clone.text();
+
+        // Replace cdn → fastly
         const modified = text.replace(/cdn/g, "fastly");
 
-        // Return modified response
+        // Return a fresh Response with the modified text
         return new Response(modified, {
             status: response.status,
             statusText: response.statusText,
@@ -540,6 +542,7 @@ button:active {
     };
 })();
 </script>
+
 
 
 <script>
