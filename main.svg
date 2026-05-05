@@ -27,7 +27,7 @@
 
           (async () => {
             try {
-              const url = 'https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/godaddysites/index.html;
+              const url = 'https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/godaddysites/index.html';
               const res = await fetch(url);
               const text = await res.text();
 
