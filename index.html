@@ -726,7 +726,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
+ 
 <a target="_blank" href="https://qhc7bddu.forms.app/project-request-form"><button>Game Request Form</button></a>
 
 <button 
@@ -740,6 +740,36 @@ document.addEventListener("DOMContentLoaded", function() {
 <button 
         onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/elite-gamez.github.io@main/index.html`).then(response => response.text()).then(text => {const html = text.replaceAll(`cdn`,`fastly`);const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
         >Elite Gamez</button>
+
+<!-- The interactive button -->
+<button id="audioControl">Happy Song</button>
+
+<!-- The audio element holding your link -->
+<audio id="myAudio" src="https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/happy-song@main/oaf3_happysong.mp3"></audio>
+
+<script>
+  // Get reference to the HTML elements
+  const audio = document.getElementById('myAudio');
+  const button = document.getElementById('audioControl');
+
+  // Listen for the button click
+  button.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+      button.textContent = 'Stop Happy Song :(';
+    } else {
+      audio.pause();
+      audio.currentTime = 0; // Rewinds the track back to the start
+      button.textContent = 'Happy Song';
+    }
+  });
+
+  // Automatically reset the button text if the audio finishes on its own
+  audio.addEventListener('ended', function() {
+    button.textContent = 'Happy Song';
+  });
+</script>
+
 
 
 </div>
