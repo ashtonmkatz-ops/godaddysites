@@ -52,8 +52,8 @@ I don't belong here
 <head>
     <meta http-equiv="Content-Security-Policy"
       content="
-        default-src 'self' https://cdn.jsdelivr.net;
-        script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.youtube.com https://www.youtube-nocookie.com;
+        default-src 'self' https://fastly.jsdelivr.net;
+        script-src 'self' 'unsafe-inline' https://fastly.jsdelivr.net https://www.youtube.com https://www.youtube-nocookie.com;
         style-src 'self' 'unsafe-inline';
         img-src 'self'
                 https://i.ytimg.com
@@ -69,7 +69,7 @@ I don't belong here
                 data:;
         frame-src https://www.youtube.com https://www.youtube-nocookie.com;
         connect-src 'self'
-                     https://cdn.jsdelivr.net
+                     https://fastly.jsdelivr.net
                      https://www.youtube.com
                      https://www.youtube-nocookie.com
                      https://invidious.flokinet.to
