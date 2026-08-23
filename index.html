@@ -50,34 +50,6 @@ I don't belong here
 -->
 
 <head>
-    <meta http-equiv="Content-Security-Policy"
-      content="
-        default-src 'self' https://fastly.jsdelivr.net;
-        script-src 'self' 'unsafe-inline' https://fastly.jsdelivr.net https://www.youtube.com https://www.youtube-nocookie.com;
-        style-src 'self' 'unsafe-inline';
-        img-src 'self'
-                https://i.ytimg.com
-                https://yt3.ggpht.com
-                https://yt4.ggpht.com
-                https://lh3.googleusercontent.com
-                https://ytimg.googleusercontent.com
-                https://ytimg.l.google.com
-                https://invidious.flokinet.to
-                https://invidious.projectsegfau.com
-                https://invidious.privacydev.net
-                https://inv.vern.cc
-                https://fastly.jsdelivr.net
-                data:;
-        frame-src https://www.youtube.com https://www.youtube-nocookie.com;
-        connect-src 'self'
-                     https://fastly.jsdelivr.net
-                     https://www.youtube.com
-                     https://www.youtube-nocookie.com
-                     https://invidious.flokinet.to
-                     https://invidious.projectsegfau.com
-                     https://invidious.privacydev.net
-                     https://inv.vern.cc;
-      ">
 
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
 <style>
@@ -770,9 +742,11 @@ document.addEventListener("DOMContentLoaded", function() {
         onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/elite-gamez.github.io@main/index.html`).then(response => response.text()).then(text => {const html = text.replaceAll(`cdn`,`fastly`);const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
         >Elite Gamez</button>
 
-<button 
-        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/potential@latest/index.html`).then(response => response.text()).then(text => {const html = text.replaceAll(`cdn`,`fastly`);const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(html);newWin.document.close();}});' 
-        >GiggleTube (YouTube Feed Recreation)</button>
+<a target="_blank" href="https://cdn.staticdelivr.com/gh/ashtonmkatz-ops/potential/main/index.html"><button>
+GiggleTube (YouTube Feed Recreation)</button></a>
+
+<a target="_blank" href="https://giggletube.floatingpixel.net"><button>
+Also GiggleTube</button></a>
 
 <!-- The interactive button -->
 <button id="audioControl">Happy Song</button>
