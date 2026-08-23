@@ -51,12 +51,15 @@ I don't belong here
 
 <head>
     <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self';
-                 frame-src https://www.youtube-nocookie.com https://www.youtube.com;
-                 script-src 'self' 'unsafe-inline' https://www.youtube.com https://www.youtube-nocookie.com;
-                 connect-src https://www.youtube.com https://www.youtube-nocookie.com;
-                 img-src 'self' https://i.ytimg.com data:;
-                 style-src 'self' 'unsafe-inline';">
+      content="
+        default-src 'self' https://cdn.jsdelivr.net;
+        script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.youtube.com https://www.youtube-nocookie.com;
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' https://i.ytimg.com data:;
+        frame-src https://www.youtube.com https://www.youtube-nocookie.com;
+        connect-src 'self' https://cdn.jsdelivr.net https://www.youtube.com https://www.youtube-nocookie.com;
+      ">
+
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Varela+Round" />
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
