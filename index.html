@@ -181,10 +181,8 @@ button {
     width: 100%;
     overflow: hidden;
 
-    box-shadow:
-        0 0 10px rgba(59,130,246,0.5),
-        0 0 25px rgba(59,130,246,0.3),
-        inset 0 0 10px rgba(59,130,246,0.3);
+    box-shadow: 0 0 12px rgba(59,130,246,0.5);
+
 }
 
 button::before {
@@ -199,7 +197,7 @@ button::before {
         #2563eb
     );
     background-size: 600% 600%;
-    animation: buttonGlow 6s linear infinite;
+    
     z-index: -1;
 }
 
@@ -212,15 +210,12 @@ button::before {
 button:hover {
     transform: translateY(-4px) scale(1.04);
 
-    box-shadow:
-        0 10px 25px rgba(0,0,0,0.35),
-        0 0 20px rgba(59,130,246,0.5);
+    box-shadow: 0 0 12px rgba(59,130,246,0.5);
+
 }
 
 button {
-    text-shadow:
-        0 0 5px rgba(59,130,246,0.8),
-        0 0 10px rgba(59,130,246,0.6);
+    text-shadow: 0 0 12px rgba(59,130,246,0.5);
 }
 
 /* Shared Neon Style */
@@ -241,51 +236,13 @@ a button {
     width: 100%;
     overflow: hidden;
 
-    box-shadow:
-        0 0 10px rgba(59,130,246,0.5),
-        0 0 25px rgba(59,130,246,0.3),
-        inset 0 0 10px rgba(59,130,246,0.3);
+    box-shadow: 0 0 12px rgba(59,130,246,0.5);
 }
 
 /* Remove default link styles */
 a.game-button {
     color: #93c5fd;
 }
-
-/* Animated Glow Border */
-button::before,
-.game-button::before {
-    content: "";
-    position: absolute;
-    inset: -2px;
-    border-radius: 18px;
-    background: linear-gradient(
-        270deg, 
-        #2563eb,
-        #7c3aed,
-        #2563eb
-    );
-    background-size: 600% 600%;
-    animation: buttonGlow 6s linear infinite;
-    z-index: -1;
-}
-
-@keyframes buttonGlow {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
-}
-
-/* Hover Effect */
-button:hover,
-.game-button:hover {
-    color: white;
-    transform: translateY(-6px) scale(1.03);
-    box-shadow:
-        0 0 15px rgba(59,130,246,0.9),
-        0 0 40px rgba(124,58,237,0.7),
-        inset 0 0 15px rgba(59,130,246,0.7);
-}
-
 
 /* SEARCH CONTAINER */
 .search-container {
@@ -722,12 +679,6 @@ document.addEventListener("DOMContentLoaded", function() {
     <h2 class="section-title">Important Links</h2>
     <div class="section-content">
 
-
-
-
-
-
- 
 <a target="_blank" href="https://qhc7bddu.forms.app/project-request-form"><button>Game Request Form</button></a>
 
 <button 
