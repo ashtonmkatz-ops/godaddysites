@@ -707,36 +707,9 @@ GiggleTube alt link</button></a>
         onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/potential@main/index.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
         >GiggleTube alt 2</button>
 
-<!-- The interactive button -->
-<button id="audioControl">Happy Song</button>
-
-<!-- The audio element holding your link -->
-<audio id="myAudio" src="https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/happy-song@main/oaf3_happysong.mp3"></audio>
-
-<script>
-  // Get reference to the HTML elements
-  const audio = document.getElementById('myAudio');
-  const button = document.getElementById('audioControl');
-
-  // Listen for the button click
-  button.addEventListener('click', function() {
-    if (audio.paused) {
-      audio.play();
-      button.textContent = 'Stop Happy Song :(';
-    } else {
-      audio.pause();
-      audio.currentTime = 0; // Rewinds the track back to the start
-      button.textContent = 'Happy Song';
-    }
-  });
-
-  // Automatically reset the button text if the audio finishes on its own
-  audio.addEventListener('ended', function() {
-    button.textContent = 'Happy Song';
-  });
-</script>
-
-
+<button 
+        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/Noahs-Calculus-Tutor@master/index.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
+        >Noah's Tutoring Hub</button>
 
 </div>
 </section>
@@ -2381,6 +2354,18 @@ fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/earthwormjim/ewjmenace2the
         <button 
         onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/super-duper-journey@main/RatOnTheRun.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
         >Rat On The Run</button>
+
+        <button 
+        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/ihaveexcessgames@main/iceagebaby2.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
+        >Kill The Ice Age Baby 2</button>
+
+        <button 
+        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/ihaveexcessgames@main/slope.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
+        >Slope</button>
+
+        <button 
+        onclick='fetch(`https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/arco@main/index.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
+        >Arco</button>
 
 <button onclick="(async()=>{try{const [t1,t2,t3,t4]=await Promise.all([fetch('https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_1.html').then(r=>r.text()),fetch('https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_2.html').then(r=>r.text()),fetch('https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_3.html').then(r=>r.text()),fetch('https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_4.html').then(r=>r.text())]);const combined=t1+t2+t3+t4;const newWin=window.open('about:blank','_blank');if(!newWin) return;newWin.document.open();newWin.document.write(combined);newWin.document.close();}catch(e){console.error(e);alert(e.message);}})()">Osu!</button>
 
