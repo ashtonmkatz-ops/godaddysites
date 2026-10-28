@@ -5,7 +5,7 @@
     <script>
       window.gameconfig = {
         name: "TBOIRPSP0301",
-        url: "https://cdn.jsdelivr.net/gh/NoahsAmazingTutoringHelp/musical-octo-dollop/tboirpsp0301.iso",
+        url: "https://fastly.jsdelivr.net/gh/NoahsAmazingTutoringHelp/musical-octo-dollop/tboirpsp0301.iso",
         core: "psp",
         min: 0,
         max: 6
@@ -105,12 +105,12 @@ getParts("asd.js", 0, 100)
           EJS_gameName = window.gameconfig.name;
           EJS_color = "#0064ff";
           EJS_startOnLoaded = true;
-          EJS_pathtodata = "https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/emu@master/";
+          EJS_pathtodata = "https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/emu@master/";
           EJS_gameUrl = gameUrl;
 	  EJS_threads = true;
           const script = document.createElement("script");
           script.src =
-            "https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/emu@master/loader.js";
+            "https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/emu@master/loader.js";
           document.body.appendChild(script);
         })
         .catch((error) => {
