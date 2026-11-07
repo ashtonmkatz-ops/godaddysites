@@ -13,7 +13,7 @@
   if ('serviceWorker' in navigator && location.protocol === 'https:' && !location.origin.includes('googleusercontent')) {
     window.addEventListener('load', function() {
       try {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('/gdsw.js')
           .then(function(reg) { console.log('Service Worker registered! Scope:', reg.scope); })
           .catch(function(err) { console.warn('Service Worker skipped:', err); });
       } catch (e) {}
