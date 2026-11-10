@@ -589,7 +589,7 @@ document.getElementById("passwordForm").addEventListener("submit", function(e) {
 function checkPassword() {
     async function fetchTxtFile() { 
         try {
-            const response = await fetch('https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/password@latest/vuu.js');
+            const response = await fetch('pass.js');
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
