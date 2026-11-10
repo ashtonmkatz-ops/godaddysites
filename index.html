@@ -517,35 +517,32 @@ button:active {
 
 </style>
 <script>
-(function() {
+(function () {
     const originalFetch = window.fetch;
 
-    // URLs that should NOT be modified
     const skipList = [
         "happy-song@main/shtupidcar.html",
         "ugs-singlefile@main/AASINGLEFILE.html",
         "Noahs-Calculus-Tutor@master/index.html"
     ];
 
-    window.fetch = async function(url, options) {
-
-        // Skip replacement for specific URLs
-        if (typeof url === "string" && skipList.some(skip => url.includes(skip))) {
+    window.fetch = async function (url, options) {
+        if (
+            typeof url === "string" &&
+            skipList.some(skip => url.includes(skip))
+        ) {
             return originalFetch(url, options);
         }
 
         const response = await originalFetch(url, options);
 
-        // Clone the response so we can read the body safely
-        const clone = response.clone();
-        const text = await clone.text();
+        const text = await response.clone().text();
 
-        // Replace cdn → quantil
-        const modified = text.replace(/cdn/g, "quantil");
-        const next = text.replace(/fastly/g, "quantil");
+        const modified = text
+            .replaceAll("cdn", "quantil")
+            .replaceAll("fastly", "quantil");
 
-        // Return a fresh Response with the modified text
-        return new Response(next, {
+        return new Response(modified, {
             status: response.status,
             statusText: response.statusText,
             headers: response.headers
