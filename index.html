@@ -541,11 +541,11 @@ button:active {
         const text = await clone.text();
 
         // Replace cdn → quantil
-        const modified = text.replace("cdn", "quantil");
-        const modified = text.replace("fastly", "quantil");
+        const modified = text.replace(/cdn/g, "quantil");
+        const next = text.replace(/fastly/g, "quantil");
 
         // Return a fresh Response with the modified text
-        return new Response(modified, {
+        return new Response(next, {
             status: response.status,
             statusText: response.statusText,
             headers: response.headers
@@ -952,6 +952,9 @@ fetch(`https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/stickyhenry/escapingthepr
 
 <a target="_blank" href="http://smg.farfleet.com/"><button>
 Super Mario Galaxy</button></a>
+
+<a target="_blank" href="http://test.farfleet.com/"><button>
+Mario Kart Wii</button></a>
         
 <button 
         onclick='fetch(`https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/flashgames/smbcrossover.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
@@ -2548,9 +2551,6 @@ fetch(`https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/earthwormjim/ewjmenace2th
 
 <a target="_blank" href="http://tboi.farfleet.com/"><button>
 The Binding of Isaac: Repentance</button></a>
-
-        <a target="_blank" href="http://test.farfleet.com/"><button>
-Portal 1</button></a>
         
 <button onclick="(async()=>{try{const [t1,t2,t3,t4]=await Promise.all([fetch('https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_1.html').then(r=>r.text()),fetch('https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_2.html').then(r=>r.text()),fetch('https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_3.html').then(r=>r.text()),fetch('https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/scratchprojects/osu!%20Full%20Remake_4.html').then(r=>r.text())]);const combined=t1+t2+t3+t4;const newWin=window.open('about:blank','_blank');if(!newWin) return;newWin.document.open();newWin.document.write(combined);newWin.document.close();}catch(e){console.error(e);alert(e.message);}})()">Osu!</button>
 
