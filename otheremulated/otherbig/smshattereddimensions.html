@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Ultimate Game Stash file -->
+
+  <script>
+    window.gameconfig = {
+      name: "b3313",
+      url: "https://fastly.jsdelivr.net/gh/ashtonmkatz-ops/otheremulated@main/otherbig/spidermanshattereddimensions.nds.zip",
+      core: "nds",
+      min: 0,
+      max: 1
+    };
+  </script>
+
+  <script>
+    async function loadParts(baseUrl, start, end, onProgress) {
+      const chunks = [];
+      let totalSize = 0;
+
+      for (let i = start; i <= end; i++) {
+        const padded = i.toString().padStart(2, '0');
+        const url = `${baseUrl}.part${padded}`;
+        console.log("Fetching", url);
+
+        const res = await fetch(url);
+        if (!res.ok) {
+          throw new Error(`Failed to fetch ${url}`);
+        }
+
+        const buf = await res.arrayBuffer();
+        const chunk = new Uint8Array(buf);
+
+        chunks.push(chunk);
+        totalSize += chunk.length;
+
+        if (onProgress) {
+          onProgress(i - start + 1, end - start + 1);
+        }
+      }
+
+      // merge once (fast + safe)
+      const merged = new Uint8Array(totalSize);
+      let offset = 0;
+
+      for (const chunk of chunks) {
+        merged.set(chunk, offset);
+        offset += chunk.length;
+      }
+
+      return URL.createObjectURL(
+        new Blob([merged.buffer], { type: "application/octet-stream" })
+      );
+    }
+  </script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #game-container {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+
+    #loading-progress {
+      font-size: 18px;
+      margin-top: 20px;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="game-container">
+    <div id="game"></div>
+    <div id="loading-progress">Loading: 0/0</div>
+    <div id="first-time">First-time loading may take longer...</div>
+  </div>
+
+  <script>
+    const progressEl = document.getElementById("loading-progress");
+
+    function updateProgress(loaded, total) {
+      progressEl.textContent = `Loading: ${loaded}/${total}`;
+    }
+
+    (async () => {
+      try {
+        const gameUrl = await loadParts(
+          window.gameconfig.url,
+          window.gameconfig.min,
+          window.gameconfig.max,
+          updateProgress
+        );
+
+        progressEl.remove();
+        document.getElementById("first-time").remove();
+
+        // EmulatorJS config
+        window.EJS_player = "#game";
+        window.EJS_core = window.gameconfig.core;
+        window.EJS_gameName = window.gameconfig.name;
+        window.EJS_color = "#0064ff";
+        window.EJS_startOnLoaded = true;
+        window.EJS_pathtodata = "https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/emu@master/";
+        window.EJS_gameUrl = gameUrl;
+
+        const script = document.createElement("script");
+        script.src = "https://cdn.jsdelivr.net/gh/ashtonmkatz-ops/emu@master/loader.js";
+        document.body.appendChild(script);
+      } catch (err) {
+        console.error(err);
+        progressEl.textContent = "Error loading game.";
+      }
+    })();
+  </script>
+</body>
+</html>
