@@ -541,7 +541,8 @@ button:active {
         const text = await clone.text();
 
         // Replace cdn → quantil
-        const modified = text.replace(/cdn/g, "quantil");
+        const modified = text.replace("cdn", "quantil");
+        const modified = text.replace("fastly", "quantil");
 
         // Return a fresh Response with the modified text
         return new Response(modified, {
