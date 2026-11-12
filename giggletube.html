@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self' https://fastly.jsdelivr.net;
+
+        script-src 'self' 'unsafe-inline'
+                   https://fastly.jsdelivr.net
+                   https://www.youtube.com
+                   https://www.youtube-nocookie.com;
+
+        style-src 'self' 'unsafe-inline';
+
+        img-src 'self'
+                https://i.ytimg.com
+                https://yt3.ggpht.com
+                https://yt4.ggpht.com
+                https://lh3.googleusercontent.com
+                https://ytimg.googleusercontent.com
+                https://ytimg.l.google.com
+                https://fastly.jsdelivr.net
+                data:;
+
+        frame-src https://www.youtube.com https://www.youtube-nocookie.com;
+
+        connect-src 'self'
+                     https://fastly.jsdelivr.net
+                     https://www.googleapis.com
+                     https://www.youtube.com
+                     https://www.youtube-nocookie.com;
+      ">
+
+
+<title>GiggleTube</title>
+
+<style>
+    body { font-family: Arial, sans-serif; background: #0f0f0f; color: #f1f1f1; padding: 20px; margin: 0; }
+    h1 { color: #00aeff; font-size: 24px; margin-bottom: 5px; }
+    .subtitle { color: #888; font-size: 14px; margin-bottom: 25px; }
+
+    .search-container { display: flex; gap: 10px; max-width: 600px; margin-bottom: 25px; }
+    .search-input { flex: 1; padding: 12px; background: #1f1f1f; border: 1px solid #333; border-radius: 6px; color: white; font-size: 14px; }
+    .search-btn { padding: 12px 24px; background: #00aeff; color: white; border: none; font-weight: bold; border-radius: 6px; cursor: pointer; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+    .card { background: #1f1f1f; border-radius: 12px; overflow: hidden; padding: 12px; border: 1px solid #00aeff; transition: transform 0.2s; }
+    .card:hover { transform: translateY(-4px); border-color: #00aeff; }
+
+    .thumb-container { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; }
+    img { width: 100%; height: 100%; object-fit: cover; }
+
+    h3 { font-size: 14px; margin: 12px 0 6px; line-height: 1.4; max-height: 40px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+    .meta { font-size: 12px; color: #aaa; margin-bottom: 12px; }
+    .score-tag { background: rgba(255,0,0,0.15); color: #00aeff; padding: 4px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; display: inline-block; margin-bottom: 8px; }
+
+    .button-row {
+  display: flex;
+  gap: 10px;        /* space between buttons */
+  margin-top: 10px;
+}
+
+.copy-btn,
+.watch-btn {
+  flex: 1;          /* each button takes up equal space */
+  padding: 10px;
+  background: #2d2d2d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.copy-btn:hover,
+.watch-btn:hover {
+  background: #027cb5;
+}
+
+    /* Info Button */
+#infoButton {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: #2d2d2d;
+  color: white;
+  font-size: 20px;
+  padding: 7px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background 0.2s;
+}
+#infoButton:hover {
+  background: #027cb5;
+}
+
+/* Modal Background */
+#infoModal {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 999;
+}
+
+/* Modal Content Box */
+#infoContent {
+  background: #1f1f1f;
+  color: white;
+  width: 90%;
+  max-width: 500px;
+  margin: 120px auto;
+  padding: 25px;
+  border-radius: 12px;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Close Button */
+#closeInfo {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #aaa;
+}
+#closeInfo:hover {
+  color: white;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Keep everything aligned in one row */
+.search-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap; /* prevents weird wrapping */
+}
+
+/* Refresh button styling */
+#refreshBtn {
+  padding: 12px 20px;
+  background: #2d2d2d;
+  color: white;
+  border: 1px solid #00aeff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.2s;
+  font-weight: bold;
+  display: block;
+  width: 100%; 
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#refreshBtn:hover {
+  background: #027cb5;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Refresh button styling */
+#searchBtn {
+  padding: 12px 20px;
+  background: #2d2d2d;
+  color: white;
+  border: 1px solid #00aeff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+#searchBtn:hover {
+  background: #027cb5;
+  color: white;
+  transform: translateY(-2px);
+}
+
+#refresh {
+  padding: 12px 20px;
+  background: #2d2d2d;
+  color: white;
+  border: 1px solid #00aeff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+#refresh:hover {
+  background: #027cb5;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Popup background */
+#playerModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  z-index: 9999;
+}
+
+/* Popup content box */
+#playerContent {
+  background: #1f1f1f;
+  width: 90%;
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+}
+
+/* Close button */
+#closePlayer {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 32px;
+  cursor: pointer;
+  color: #ccc;
+}
+#closePlayer:hover {
+  color: white;
+}
+
+/* Video iframe */
+#playerFrame {
+  width: 100%;
+  height: 450px;
+  border: none;
+  border-radius: 8px;
+}
+
+#customizeBtn {
+  padding: 8px 14px;
+  background: #2d2d2d;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#customizeBtn:hover {
+  background: #444;
+}
+
+#customizeModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  z-index: 9999;
+}
+
+#customizeContent {
+  background: #1f1f1f;
+  width: 90%;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+}
+
+#closeCustomize {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 32px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+#closeCustomize:hover {
+  color: white;
+}
+
+#topicsInput {
+  width: 96%;
+  height: 200px;
+  background: #2d2d2d;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#saveTopicsBtn {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: #444;
+  color: white;
+  border: 1px solid #888;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#saveTopicsBtn:hover {
+  background: #666;
+}
+
+
+</style>
+</head>
+
+<body>
+<!-- Info Button -->
+<div id="infoButton">ℹ️</div>
+<button id="customizeBtn">Customize</button>
+
+
+<!-- Popup Modal -->
+<div id="infoModal">
+  <div id="infoContent">
+    <span id="closeInfo">&times;</span>
+    <section>
+      <h1>How To Use GiggleTube (for Snelson):</h1>
+      <p>Browse or search for videos you want to see and click "Copy Link". Then go to an empty Canva presentation and paste in the video to watch it.
+        Alternatively, you can click "Watch Video" to watch in GiggleTube.
+      </p>
+    </section>
+  </div>
+</div>
+
+<div id="customizeModal">
+  <div id="customizeContent">
+    <span id="closeCustomize">&times;</span>
+
+    <h2>Customize Feed Topics</h2>
+    <p>Enter one topic per line:</p>
+
+    <textarea id="topicsInput"></textarea>
+
+    <button id="saveTopicsBtn">Save & Refresh Feed</button>
+  </div>
+</div>
+
+
+<script>
+  const infoButton = document.getElementById("infoButton");
+  const infoModal = document.getElementById("infoModal");
+  const closeInfo = document.getElementById("closeInfo");
+
+  infoButton.onclick = () => {
+    infoModal.style.display = "block";
+  };
+
+  closeInfo.onclick = () => {
+    infoModal.style.display = "none";
+  };
+
+  window.onclick = (e) => {
+    if (e.target === infoModal) {
+      infoModal.style.display = "none";
+    }
+  };
+</script>
+
+
+<h1>GiggleTube</h1>
+<div class="subtitle" id="status">Loading baseline recommendations...</div>
+
+<div class="search-container">
+    <input type="text" class="search-input" id="searchBar" placeholder="Search anything...">
+    <button class="search-btn" id="searchBtn" onclick="executeLiveSearch()">Search</button>
+    <button id="refresh" onclick="refreshFeed()">Refresh Feed</button>
+</div>
+
+<!-- WATCH VIDEO POPUP -->
+<div id="playerModal">
+  <div id="playerContent">
+    <span id="closePlayer">&times;</span>
+    <iframe id="playerFrame" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<div class="grid" id="videoGrid"></div>
+
+
+<script>
+/* ============================================================
+   MULTI‑INSTANCE FALLBACK SYSTEM
+   ============================================================ */
+
+let FEED_TOPICS = [
+    "splatoon",
+    "failboat",
+    "jaymoji",
+    "geometry dash",
+    "gaming",
+    "tech review",
+    "pc build",
+    "horror game",
+    "analogue horror",
+    "backrooms"
+];
+
+// Open customize modal
+document.getElementById("customizeBtn").onclick = () => {
+    document.getElementById("topicsInput").value = FEED_TOPICS.join("\n");
+    document.getElementById("customizeModal").style.display = "block";
+};
+
+// Close modal
+document.getElementById("closeCustomize").onclick = () => {
+    document.getElementById("customizeModal").style.display = "none";
+};
+
+// Save topics + refresh feed
+document.getElementById("saveTopicsBtn").onclick = () => {
+    const raw = document.getElementById("topicsInput").value;
+
+    // Split by newlines, trim, remove empty lines
+    FEED_TOPICS = raw
+        .split("\n")
+        .map(t => t.trim())
+        .filter(t => t.length > 0);
+
+    document.getElementById("customizeModal").style.display = "none";
+
+    // Reload feed with new topics
+    loadBaselineFeed(true);
+};
+
+// Close modal when clicking outside
+window.onclick = (e) => {
+    if (e.target === document.getElementById("customizeModal")) {
+        document.getElementById("customizeModal").style.display = "none";
+    }
+};
+
+
+
+
+
+// ---------------------------------------------
+// 1. ISO8601 duration parser (YouTube format)
+// ---------------------------------------------
+function parseISO8601Duration(iso) {
+    const match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+    const hours = parseInt(match?.[1] || 0);
+    const minutes = parseInt(match?.[2] || 0);
+    const seconds = parseInt(match?.[3] || 0);
+    return hours * 3600 + minutes * 60 + seconds;
+}
+
+// ---------------------------------------------
+// 2. YouTube API search + details fetcher
+// ---------------------------------------------
+async function fetchFromYoutube(query) {
+    const API_KEY = "AIzaSyD1OHpW5DBXYGTVh0dQ6MMWiiXSXgPWL94";
+
+    try {
+        // Step 1: Search for videos
+        const searchUrl =
+    `https://www.googleapis.com/youtube/v3/search` +
+    `?part=snippet&type=video&q=${encodeURIComponent(query)}` +
+    `&maxResults=50&key=${API_KEY}`;
+
+const searchRes = await fetch(searchUrl);
+
+if (!searchRes.ok) {
+    console.error("YouTube SEARCH error:", searchRes.status, searchRes.statusText);
+    console.error("Search URL:", searchUrl);
+    console.error("Search response:", await searchRes.text());
+    return [];
+}
+
+// ⭐ THIS LINE WAS MISSING ⭐
+const searchJson = await searchRes.json();
+
+if (!searchJson.items || searchJson.items.length === 0) {
+    console.warn("YouTube returned NO items for:", query);
+    console.warn("Full search JSON:", searchJson);
+    return [];
+}
+
+
+        // Extract video IDs
+        const ids = searchJson.items.map(i => i.id.videoId).join(",");
+
+        // Step 2: Fetch durations + content details
+        const detailsUrl =
+            `https://www.googleapis.com/youtube/v3/videos` +
+            `?part=contentDetails&id=${ids}&key=${API_KEY}`;
+
+        const detailsRes = await fetch(detailsUrl);
+const detailsJson = await detailsRes.json();
+
+if (!detailsJson.items) {
+    console.warn("No details returned for:", ids);
+    return searchJson.items.map(item => ({
+        type: "video",
+        videoId: item.id.videoId,
+        title: item.snippet.title,
+        author: item.snippet.channelTitle,
+        videoThumbnails: [
+            { url: item.snippet.thumbnails.high.url }
+        ],
+        lengthSeconds: 0 // fallback
+    }));
+}
+
+
+        // Step 3: Merge search + details into Invidious‑like objects
+        return searchJson.items.map(item => {
+            const detail = detailsJson.items.find(d => d.id === item.id.videoId);
+
+            return {
+                type: "video",
+                videoId: item.id.videoId,
+                title: item.snippet.title,
+                author: item.snippet.channelTitle,
+                videoThumbnails: [
+                    { url: item.snippet.thumbnails.high.url }
+                ],
+                lengthSeconds: detail
+                    ? parseISO8601Duration(detail.contentDetails.duration)
+                    : 0
+            };
+        });
+
+    } catch (err) {
+        console.error("fetchFromYoutube FATAL error:", err);
+        return [];
+    }
+}
+
+function normalizeThumbnail(thumbnails, videoId) {
+    // Prefer high-quality thumbnails if available
+    if (thumbnails?.maxres?.url) return thumbnails.maxres.url;
+    if (thumbnails?.standard?.url) return thumbnails.standard.url;
+    if (thumbnails?.high?.url) return thumbnails.high.url;
+    if (thumbnails?.medium?.url) return thumbnails.medium.url;
+    if (thumbnails?.default?.url) return thumbnails.default.url;
+
+    // Fallback: construct a safe ytimg URL
+    return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+}
+
+
+function watchVideo(id) {
+    const frame = document.getElementById("playerFrame");
+    frame.src = "https://www.youtube-nocookie.com/embed/" + id;
+
+    document.getElementById("playerModal").style.display = "block";
+}
+
+document.getElementById("closePlayer").onclick = () => {
+    document.getElementById("playerModal").style.display = "none";
+    document.getElementById("playerFrame").src = "";
+};
+
+window.onclick = (e) => {
+    if (e.target === document.getElementById("playerModal")) {
+        document.getElementById("playerModal").style.display = "none";
+        document.getElementById("playerFrame").src = "";
+    }
+};
+
+
+/* ============================================================
+   COPY LINK BUTTON
+   ============================================================ */
+
+function copyVideoLink(id, btn) {
+    const url = "https://youtube.com/watch?v=" + id;
+    navigator.clipboard.writeText(url).then(() => {
+        btn.innerText = "Copied!";
+        setTimeout(() => btn.innerText = "Copy Link", 1500);
+    });
+}
+
+/* ============================================================
+   CATEGORY INFERENCE
+   ============================================================ */
+
+function inferCategory(text) {
+    const t = text.toLowerCase();
+    if (t.includes("game") || t.includes("play")) return "gaming";
+    if (t.includes("cook") || t.includes("food") || t.includes("chef")) return "cooking";
+    if (t.includes("music") || t.includes("lofi") || t.includes("song")) return "music";
+    if (t.includes("science") || t.includes("tech") || t.includes("how")) return "science";
+    // Gaming
+    if (
+        t.includes("game") ||
+        t.includes("gaming") ||
+        t.includes("splatoon") ||
+        t.includes("failboat") ||
+        t.includes("jaymoji") ||
+        t.includes("gd") ||
+        t.includes("geometry dash")
+    ) return "gaming";
+
+    // Tech
+    if (
+        t.includes("tech") ||
+        t.includes("review") ||
+        t.includes("unboxing") ||
+        t.includes("pc build") ||
+        t.includes("setup")
+    ) return "tech";
+
+    // Horror
+    if (
+        t.includes("horror") ||
+        t.includes("analogue") ||
+        t.includes("analog") ||
+        t.includes("creepy") ||
+        t.includes("scary") ||
+        t.includes("backrooms")
+    ) return "horror";
+
+    return "general";
+}
+
+/* ============================================================
+   SCORING ALGORITHM
+   ============================================================ */
+
+function scoreVideo(video, query) {
+    let score = 100;
+    const title = video.title.toLowerCase();
+    const q = query.toLowerCase();
+
+    if (title.includes(q)) score += 150;
+    if (video.category === "music" || video.category === "science") score += 60;
+    if (video.lengthSeconds < 400) score -= 30;
+
+    const now = Date.now() / 1000; // seconds
+    const ageDays = (now - video.published) / 86400;
+
+    // Newer videos get up to +25 points, older ones get ~0
+    const recencyBonus = Math.max(0, 25 - ageDays * 0.5);
+    score += recencyBonus;
+
+
+    return score;
+}
+
+/* ============================================================
+   BASELINE TRENDING FEED (with algorithm + refresh)
+   ============================================================ */
+
+async function loadBaselineFeed(isRefresh = false) {
+    const grid = document.getElementById("videoGrid");
+    const status = document.getElementById("status");
+
+    grid.innerHTML = "<p>Loading...</p>";
+    status.innerText = isRefresh ? "Refreshing feed..." : "Loading recommendations...";
+
+    try {
+        // 1. Run all searches in parallel
+        const searchPromises = FEED_TOPICS.map(async topic => {
+    try {
+        console.log("Searching topic:", topic);
+
+        // FIXED: pass the topic directly, not an endpoint
+        const res = await fetchFromYoutube(topic);
+
+        return res.filter(v => v.type === "video");
+    } catch (e) {
+        console.error("Failed topic:", topic, e);
+        return []; // fail soft for this topic
+    }
+});
+
+        const resultsByTopic = await Promise.all(searchPromises);
+
+        // 2. Flatten results
+        let allResults = [];
+        resultsByTopic.forEach(list => allResults.push(...list));
+
+        // 3. Deduplicate by videoId
+        const unique = {};
+        allResults.forEach(v => {
+            if (v.videoId) unique[v.videoId] = v;
+        });
+        const videos = Object.values(unique);
+
+        // 4. Score videos
+        let processed = videos.map(v => {
+    const category = inferCategory(v.title || "");
+    const author = (v.author || "").toLowerCase();
+    const length = v.lengthSeconds || 0;
+
+    let score = 0;
+
+    // Category boosts
+    if (category === "gaming") score += 100;
+    if (category === "tech") score += 100;
+    if (category === "horror") score += 120;
+    if (category === "general") score -= 10;
+
+    // Creator boosts
+    if (author.includes("failboat")) score += 150;
+    if (author.includes("jaymoji")) score += 150;
+    if (author.includes("geometry")) score += 150;
+
+    // Minimal length bias
+    if (length === 0) score -= 200;
+
+    // Stronger randomness
+    score += Math.random() * 50;
+
+    return {
+        id: v.videoId,
+        title: v.title || "Untitled",
+        author: v.author || "Unknown",
+        thumbnail: normalizeThumbnail(v.videoThumbnails?.[0]?.url, v.videoId),
+        lengthSeconds: length,
+        category,
+        finalScore: score
+    };
+})
+.filter(v => v.finalScore > 5);
+
+// Shuffle results (Fisher–Yates)
+for (let i = processed.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [processed[i], processed[j]] = [processed[j], processed[i]];
+}
+
+
+
+        // 5. Render
+        grid.innerHTML = "";
+
+        if (processed.length === 0) {
+            status.innerText = "No videos found for these topics.";
+            grid.innerHTML = "<p>Try refreshing or changing topics.</p>";
+            return;
+        }
+
+        status.innerText = isRefresh ? "Feed refreshed!" : "Recommended videos";
+
+        processed.forEach(video => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const minutes = Math.floor(video.lengthSeconds / 60);
+
+            card.innerHTML = `
+                <div class="thumb-container">
+                    <img src="${video.thumbnail}">
+                    <span style="position:absolute; bottom:5px; right:5px; background:#0008; padding:2px 5px; font-size:11px; border-radius:3px;">
+                        ${minutes}m
+                    </span>
+                </div>
+
+                <h3>${video.title}</h3>
+
+                <div class="score-tag">Score: ${Math.round(video.finalScore)}</div>
+                <p class="meta">👤 ${video.author}<br>🏷️ ${video.category}</p>
+
+                <div class="button-row">
+                    <button class="copy-btn" onclick="copyVideoLink('${video.id}', this)">Copy Link</button>
+                    <button class="watch-btn" onclick="watchVideo('${video.id}')">Watch Video</button>
+                </div>
+            `;
+
+            grid.appendChild(card);
+        });
+
+    } catch (err) {
+        console.error("Baseline feed error:", err);
+        status.innerText = "Could not load feed.";
+        grid.innerHTML = "<p>Try again later.</p>";
+    }
+}
+
+
+
+
+
+/* ============================================================
+   REFRESH BUTTON
+   ============================================================ */
+
+function refreshFeed() {
+    loadBaselineFeed(true);
+}
+
+/* ============================================================
+   LIVE SEARCH FEED
+   ============================================================ */
+
+async function executeLiveSearch() {
+    const query = document.getElementById("searchBar").value.trim();
+    const grid = document.getElementById("videoGrid");
+    const status = document.getElementById("status");
+
+    if (!query) return;
+
+    status.innerText = "Searching...";
+    grid.innerHTML = "<p>Loading...</p>";
+
+    try {
+        const results = await fetchFromYoutube(encodeURIComponent(query));
+
+        const processed = results
+            .filter(v => v.type === "video")
+            .map(v => {
+                const category = inferCategory(v.title);
+                return {
+                    id: v.videoId,
+                    title: v.title,
+                    author: v.author,
+                    thumbnail: normalizeThumbnail(v.videoThumbnails?.[0]?.url, v.videoId),
+                    lengthSeconds: v.lengthSeconds || 0,
+                    category,
+                    finalScore: scoreVideo({ title: v.title, category, lengthSeconds: v.lengthSeconds }, query)
+                };
+            })
+            .sort((a, b) => b.finalScore - a.finalScore);
+
+        grid.innerHTML = "";
+        status.innerText = `Found ${processed.length} videos`;
+
+        processed.forEach(video => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const minutes = Math.floor(video.lengthSeconds / 60);
+
+            card.innerHTML = `
+                <div class="thumb-container">
+                    <img src="${video.thumbnail}">
+                    <span style="position:absolute; bottom:5px; right:5px; background:#0008; padding:2px 5px; font-size:11px; border-radius:3px;">
+                        ${minutes}m
+                    </span>
+                </div>
+
+                <h3>${video.title}</h3>
+
+                <div>
+                    <div class="score-tag">Match Rating: ${video.finalScore} pts</div>
+                    <p class="meta">👤 ${video.author}<br>🏷️ ${video.category}</p>
+                    <div class="button-row">
+    <button class="copy-btn" onclick="copyVideoLink('${video.id}', this)">Copy Link</button>
+    <button class="watch-btn" onclick="watchVideo('${video.id}')">Watch Video</button>
+</div>
+
+
+                </div>
+            `;
+
+            grid.appendChild(card);
+        });
+
+    } catch (err) {
+        console.error(err);
+        status.innerText = "Search failed.";
+        grid.innerHTML = "<p>Try again later.</p>";
+    }
+}
+
+/* ============================================================
+   LOAD BASELINE FEED ON STARTUP
+   ============================================================ */
+
+window.addEventListener("DOMContentLoaded", loadBaselineFeed);
+</script>
+<button id="refreshBtn" onclick="refreshFeed()">Refresh Feed</button>
+</html> 
