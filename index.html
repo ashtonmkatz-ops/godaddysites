@@ -516,42 +516,6 @@ button:active {
 
 
 </style>
-<script>
-(function () {
-    const originalFetch = window.fetch;
-
-    const skipList = [
-        "happy-song@main/shtupidcar.html",
-        "ugs-singlefile@main/AASINGLEFILE.html",
-        "Noahs-Calculus-Tutor@master/index.html"
-    ];
-
-    window.fetch = async function (url, options) {
-        if (
-            typeof url === "string" &&
-            skipList.some(skip => url.includes(skip))
-        ) {
-            return originalFetch(url, options);
-        }
-
-        const response = await originalFetch(url, options);
-
-        const text = await response.clone().text();
-
-        const modified = text
-            .replaceAll("cdn", "quantil")
-            .replaceAll("fastly", "quantil");
-
-        return new Response(modified, {
-            status: response.status,
-            statusText: response.statusText,
-            headers: response.headers
-        });
-    };
-})();
-</script>
-
-
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -687,14 +651,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <button 
         onclick='fetch(`giggletube.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
         >GiggleTube (YouTube Feed Recreation)</button>
-
-<button 
-        onclick='fetch(`https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/Noahs-Calculus-Tutor@master/index.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
-        >Noah's Tutoring Hub</button>
-        
-        <button 
-        onclick='fetch(`https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/godaddysites@main/index.html`).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});' 
-        >gigglyfmap about:blank</button>
 
         
 <a target="_blank" href="http://syrup.farfleet.com/"><button>
@@ -939,7 +895,7 @@ fetch(`https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/stickyhenry/escapingthepr
     <div class="section-content">
 
 
-<a target="_blank" href="http://smg.farfleet.com/"><button>
+<a target="_blank" href="/SMGwebport/"><button>
 Super Mario Galaxy</button></a>
 
 <a target="_blank" href="http://test.farfleet.com/mkwii/WiiCompiled.html"><button>
@@ -995,7 +951,7 @@ Mario Kart Wii</button></a>
 
     <script>
 function openBlankWithHTML() {
-fetch(`https://quantil.jsdelivr.net/gh/ashtonmkatz-ops/infiltratingsamsclub/greg.html`)
+fetch(`otheremulated/infiltratingsamsclub.html`)
                                 .then(response => response.text())
                                 .then(text => {
                                     const newWin = window.open("about:blank", "_blank");
