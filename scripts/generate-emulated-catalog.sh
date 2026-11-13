@@ -20,6 +20,7 @@ curl -fsSL "$api" | jq --arg raw "$raw" '
     | ($path | ascii_downcase) as $lower
     | select(($segments | length) > 1)
     | select(($segments | map(ascii_downcase) | any(. == "bootleg" or . == "randomizers" or . == "3ds" or . == "etc" or . == "swf")) | not)
+    | select($lower | test("\\.md$") | not)
     | select($lower | test("\\.(nds|gba|gbc|gb|nes|sfc|smc|n64|z64|v64|a26|gen|md|gg|d64|t64|chd|bin|iso|cue|zip|7z)$"))
     | select($lower | test("\\.part[^/]*$") | not)
     | {system: $system,
