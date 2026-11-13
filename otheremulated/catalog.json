@@ -17,20 +17,6 @@
       "path": "2600/Halloween (USA).zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/2600/Halloween%20%28USA%29.zip",
       "core": "2600"
-    },
-    {
-      "name": "keepmepls.md",
-      "path": "2600/keepmepls.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/2600/keepmepls.md",
-      "core": "2600"
-    }
-  ],
-  "c64": [
-    {
-      "name": "keepme.md",
-      "path": "c64/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/c64/keepme.md",
-      "core": "c64"
     }
   ],
   "gb": [
@@ -248,12 +234,6 @@
       "name": "Hoenn's Last Wish (v0.3.26).7z",
       "path": "gb/Hoenn's Last Wish (v0.3.26).7z",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/gb/Hoenn%27s%20Last%20Wish%20%28v0.3.26%29.7z",
-      "core": "gba"
-    },
-    {
-      "name": "keepme.md",
-      "path": "gb/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/gb/keepme.md",
       "core": "gba"
     },
     {
@@ -823,30 +803,6 @@
       "core": "gen"
     },
     {
-      "name": "keepme.md",
-      "path": "gen/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/gen/keepme.md",
-      "core": "gen"
-    },
-    {
-      "name": "keepme.md",
-      "path": "gen/megamix5a/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/gen/megamix5a/keepme.md",
-      "core": "gen"
-    },
-    {
-      "name": "keepme.md",
-      "path": "gen/soniccd/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/gen/soniccd/keepme.md",
-      "core": "gen"
-    },
-    {
-      "name": "keepme.md",
-      "path": "gen/soniccdjp/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/gen/soniccdjp/keepme.md",
-      "core": "gen"
-    },
-    {
       "name": "Kid Chameleon (USA, Europe).zip",
       "path": "gen/Kid Chameleon (USA, Europe).zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/gen/Kid%20Chameleon%20%28USA%2C%20Europe%29.zip",
@@ -1091,24 +1047,6 @@
       "core": "mame"
     },
     {
-      "name": "keepme.md",
-      "path": "mame/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/mame/keepme.md",
-      "core": "mame"
-    },
-    {
-      "name": "keepme.md",
-      "path": "mame/test/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/mame/test/keepme.md",
-      "core": "mame"
-    },
-    {
-      "name": "keepme.md",
-      "path": "mame/test2/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/mame/test2/keepme.md",
-      "core": "mame"
-    },
-    {
       "name": "lbowling.zip",
       "path": "mame/lbowling.zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/mame/lbowling.zip",
@@ -1160,12 +1098,6 @@
       "name": "qbert.zip",
       "path": "mame/qbert.zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/mame/qbert.zip",
-      "core": "mame"
-    },
-    {
-      "name": "readme.md",
-      "path": "mame/savestates/readme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/mame/savestates/readme.md",
       "core": "mame"
     },
     {
@@ -1327,18 +1259,6 @@
       "core": "n64"
     },
     {
-      "name": "keepme.md",
-      "path": "n64/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/n64/keepme.md",
-      "core": "n64"
-    },
-    {
-      "name": "keepme.md",
-      "path": "n64/savestates/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/n64/savestates/keepme.md",
-      "core": "n64"
-    },
-    {
       "name": "LEGO Racers (USA).zip",
       "path": "n64/LEGO Racers (USA).zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/n64/LEGO%20Racers%20%28USA%29.zip",
@@ -1491,12 +1411,6 @@
       "core": "nds"
     },
     {
-      "name": "keepme.md",
-      "path": "nds/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/nds/keepme.md",
-      "core": "nds"
-    },
-    {
       "name": "Kirby Mass Attack (USA) (En,Fr,Es).7z",
       "path": "nds/Kirby Mass Attack (USA) (En,Fr,Es).7z",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/nds/Kirby%20Mass%20Attack%20%28USA%29%20%28En%2CFr%2CEs%29.7z",
@@ -1530,12 +1444,6 @@
       "name": "PokePearl.7z",
       "path": "nds/PokePearl.7z",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/nds/PokePearl.7z",
-      "core": "nds"
-    },
-    {
-      "name": "readme.md",
-      "path": "nds/savestates/readme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/nds/savestates/readme.md",
       "core": "nds"
     },
     {
@@ -1715,12 +1623,6 @@
       "core": "nes"
     },
     {
-      "name": "keepme.md",
-      "path": "nes/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/nes/keepme.md",
-      "core": "nes"
-    },
-    {
       "name": "Mach Rider.7z",
       "path": "nes/Mach Rider.7z",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/nes/Mach%20Rider.7z",
@@ -1825,194 +1727,10 @@
   ],
   "ngp": [
     {
-      "name": "plsdontremove.md",
-      "path": "NGP/plsdontremove.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/NGP/plsdontremove.md",
-      "core": "ngp"
-    },
-    {
       "name": "Sonic The Hedgehog - Pocket Adventure.zip",
       "path": "NGP/Sonic The Hedgehog - Pocket Adventure.zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/NGP/Sonic%20The%20Hedgehog%20-%20Pocket%20Adventure.zip",
       "core": "ngp"
-    }
-  ],
-  "psx": [
-    {
-      "name": "bubbleisahugew.md",
-      "path": "psx/umj/bubbleisahugew.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/umj/bubbleisahugew.md",
-      "core": "psx"
-    },
-    {
-      "name": "donotlosemepls.md",
-      "path": "psx/mktrilogy/donotlosemepls.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/mktrilogy/donotlosemepls.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/LSD/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/LSD/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/armoredcore/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/armoredcore/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/ataricollection2/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/ataricollection2/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/crash2/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/crash2/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/crash3/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/crash3/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/digimonworld/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/digimonworld/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/dinocrisis/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/dinocrisis/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/jojobo/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/jojobo/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/klonoa/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/klonoa/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/marvelvscapcom/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/marvelvscapcom/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/medalofhonor/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/medalofhonor/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/megamanx5/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/megamanx5/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/megamanx6/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/megamanx6/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/nbafastbreak98/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/nbafastbreak98/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/nfl/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/nfl/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/nfs1/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/nfs1/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/nfs2/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/nfs2/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/nfs3/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/nfs3/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/nfshs/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/nfshs/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/spiderman1/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/spiderman1/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepme.md",
-      "path": "psx/tekken2/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/tekken2/keepme.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepmepls.md",
-      "path": "psx/sotn/keepmepls.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/sotn/keepmepls.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepmepls.md",
-      "path": "psx/tekken3/keepmepls.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/tekken3/keepmepls.md",
-      "core": "psx"
-    },
-    {
-      "name": "keepmeplz.md",
-      "path": "psx/mvssf/keepmeplz.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/mvssf/keepmeplz.md",
-      "core": "psx"
-    },
-    {
-      "name": "shayderweditor.md",
-      "path": "psx/wwfsmackdown2/shayderweditor.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/psx/wwfsmackdown2/shayderweditor.md",
-      "core": "psx"
-    }
-  ],
-  "saturn": [
-    {
-      "name": "keepme.md",
-      "path": "saturn/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/saturn/keepme.md",
-      "core": "saturn"
     }
   ],
   "sfc": [
@@ -2059,12 +1777,6 @@
       "core": "snes"
     },
     {
-      "name": "keepme.md",
-      "path": "sfc/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/sfc/keepme.md",
-      "core": "snes"
-    },
-    {
       "name": "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).zip",
       "path": "sfc/Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/sfc/Mickey%20Mania%20-%20The%20Timeless%20Adventures%20of%20Mickey%20Mouse%20%28USA%29.zip",
@@ -2080,12 +1792,6 @@
       "name": "Patched_A_Plumber_For_All_Seasons_2021-11-22.zip",
       "path": "sfc/Patched_A_Plumber_For_All_Seasons_2021-11-22.zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/sfc/Patched_A_Plumber_For_All_Seasons_2021-11-22.zip",
-      "core": "snes"
-    },
-    {
-      "name": "readme.md",
-      "path": "sfc/savestates/readme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/sfc/savestates/readme.md",
       "core": "snes"
     },
     {
@@ -2139,12 +1845,6 @@
   ],
   "sms": [
     {
-      "name": "acpoisamazing.md",
-      "path": "sms/acpoisamazing.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/sms/acpoisamazing.md",
-      "core": "sms"
-    },
-    {
       "name": "Alex Kidd in Miracle World (USA, Europe) (Rev 1).zip",
       "path": "sms/Alex Kidd in Miracle World (USA, Europe) (Rev 1).zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/sms/Alex%20Kidd%20in%20Miracle%20World%20%28USA%2C%20Europe%29%20%28Rev%201%29.zip",
@@ -2180,12 +1880,6 @@
       "name": "Final Fantasy II (Japan) [T-En by RPGOne v0.97].zip",
       "path": "ws/Final Fantasy II (Japan) [T-En by RPGOne v0.97].zip",
       "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/ws/Final%20Fantasy%20II%20%28Japan%29%20%5BT-En%20by%20RPGOne%20v0.97%5D.zip",
-      "core": "ws"
-    },
-    {
-      "name": "keepme.md",
-      "path": "ws/keepme.md",
-      "link": "https://raw.githubusercontent.com/ashtonmkatz-ops/exams/main/ws/keepme.md",
       "core": "ws"
     },
     {
