@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <base href="https://gigglyfmap.farfleet.com/gdport-updated/" />
+  <base href="/gdport-updated/" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="color-scheme" content="dark">
@@ -14,7 +14,7 @@
   if ('serviceWorker' in navigator && location.protocol === 'https:' && !location.origin.includes('googleusercontent')) {
     window.addEventListener('load', function() {
       try {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('./sw.js')
           .then(function(reg) { console.log('Service Worker registered! Scope:', reg.scope); })
           .catch(function(err) { console.warn('Service Worker skipped:', err); });
       } catch (e) {}
