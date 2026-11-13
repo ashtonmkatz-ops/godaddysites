@@ -4,19 +4,19 @@
       "name": "Adventure (USA).zip",
       "path": "2600/Adventure (USA).zip",
       "link": "https://smg.farfleet.com/2600/Adventure%20%28USA%29.zip",
-      "core": "2600"
+      "core": "atari2600"
     },
     {
       "name": "Dragster (USA).zip",
       "path": "2600/Dragster (USA).zip",
       "link": "https://smg.farfleet.com/2600/Dragster%20%28USA%29.zip",
-      "core": "2600"
+      "core": "atari2600"
     },
     {
       "name": "Halloween (USA).zip",
       "path": "2600/Halloween (USA).zip",
       "link": "https://smg.farfleet.com/2600/Halloween%20%28USA%29.zip",
-      "core": "2600"
+      "core": "atari2600"
     }
   ],
   "gb": [
@@ -788,103 +788,103 @@
       "name": "[SHC2017] [expo2017] 50 - Sonic The Return of Shadow - By JoenickROS.bin",
       "path": "gen/[SHC2017] [expo2017] 50 - Sonic The Return of Shadow - By JoenickROS.bin",
       "link": "https://smg.farfleet.com/gen/%5BSHC2017%5D%20%5Bexpo2017%5D%2050%20-%20Sonic%20The%20Return%20of%20Shadow%20-%20By%20JoenickROS.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Ecco the Dolphin (USA, Europe, Korea) (En).zip",
       "path": "gen/Ecco the Dolphin (USA, Europe, Korea) (En).zip",
       "link": "https://smg.farfleet.com/gen/Ecco%20the%20Dolphin%20%28USA%2C%20Europe%2C%20Korea%29%20%28En%29.zip",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Golden Axe (World) (Rev A).zip",
       "path": "gen/Golden Axe (World) (Rev A).zip",
       "link": "https://smg.farfleet.com/gen/Golden%20Axe%20%28World%29%20%28Rev%20A%29.zip",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Kid Chameleon (USA, Europe).zip",
       "path": "gen/Kid Chameleon (USA, Europe).zip",
       "link": "https://smg.farfleet.com/gen/Kid%20Chameleon%20%28USA%2C%20Europe%29.zip",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Knuckles' Chaotix (Japan, USA) (En).zip",
       "path": "gen/Knuckles' Chaotix (Japan, USA) (En).zip",
       "link": "https://smg.farfleet.com/gen/Knuckles%27%20Chaotix%20%28Japan%2C%20USA%29%20%28En%29.zip",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Metal_Sonic_Rebooted.bin",
       "path": "gen/Metal_Sonic_Rebooted.bin",
       "link": "https://smg.farfleet.com/gen/Metal_Sonic_Rebooted.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Monster World IV (USA, Europe) (En,Ja) (Virtual Console).zip",
       "path": "gen/Monster World IV (USA, Europe) (En,Ja) (Virtual Console).zip",
       "link": "https://smg.farfleet.com/gen/Monster%20World%20IV%20%28USA%2C%20Europe%29%20%28En%2CJa%29%20%28Virtual%20Console%29.zip",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Puyo Puyo (English v1.0)[USA].zip",
       "path": "gen/Puyo Puyo (English v1.0)[USA].zip",
       "link": "https://smg.farfleet.com/gen/Puyo%20Puyo%20%28English%20v1.0%29%5BUSA%5D.zip",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "s1erazor.bin",
       "path": "gen/s1erazor.bin",
       "link": "https://smg.farfleet.com/gen/s1erazor.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "S1MMU.iso",
       "path": "gen/S1MMU.iso",
       "link": "https://smg.farfleet.com/gen/S1MMU.iso",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "scheroes.bin",
       "path": "gen/scheroes.bin",
       "link": "https://smg.farfleet.com/gen/scheroes.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "SFACTOR.bin",
       "path": "gen/SFACTOR.bin",
       "link": "https://smg.farfleet.com/gen/SFACTOR.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Sonic 2 Time and Place.bin",
       "path": "gen/Sonic 2 Time and Place.bin",
       "link": "https://smg.farfleet.com/gen/Sonic%202%20Time%20and%20Place.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Sonic 3 And Sally Acorn - By E-122-Psi.bin",
       "path": "gen/Sonic 3 And Sally Acorn - By E-122-Psi.bin",
       "link": "https://smg.farfleet.com/gen/Sonic%203%20And%20Sally%20Acorn%20-%20By%20E-122-Psi.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Sonic Scorched Quest - SHC'16 version.bin",
       "path": "gen/Sonic Scorched Quest - SHC'16 version.bin",
       "link": "https://smg.farfleet.com/gen/Sonic%20Scorched%20Quest%20-%20SHC%2716%20version.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Sonic_2_Pink_Edition_Rev_2.2.bin",
       "path": "gen/Sonic_2_Pink_Edition_Rev_2.2.bin",
       "link": "https://smg.farfleet.com/gen/Sonic_2_Pink_Edition_Rev_2.2.bin",
-      "core": "gen"
+      "core": "segaMD"
     },
     {
       "name": "Toy Story (USA).zip",
       "path": "gen/Toy Story (USA).zip",
       "link": "https://smg.farfleet.com/gen/Toy%20Story%20%28USA%29.zip",
-      "core": "gen"
+      "core": "segaMD"
     }
   ],
   "ggear": [
@@ -892,43 +892,43 @@
       "name": "Sonic Blast.zip",
       "path": "ggear/Sonic Blast.zip",
       "link": "https://smg.farfleet.com/ggear/Sonic%20Blast.zip",
-      "core": "ggear"
+      "core": "segaGG"
     },
     {
       "name": "Sonic Chaos.zip",
       "path": "ggear/Sonic Chaos.zip",
       "link": "https://smg.farfleet.com/ggear/Sonic%20Chaos.zip",
-      "core": "ggear"
+      "core": "segaGG"
     },
     {
       "name": "Sonic Drift 2 (Japan, USA).zip",
       "path": "ggear/Sonic Drift 2 (Japan, USA).zip",
       "link": "https://smg.farfleet.com/ggear/Sonic%20Drift%202%20%28Japan%2C%20USA%29.zip",
-      "core": "ggear"
+      "core": "segaGG"
     },
     {
       "name": "Sonic Drift.7z",
       "path": "ggear/Sonic Drift.7z",
       "link": "https://smg.farfleet.com/ggear/Sonic%20Drift.7z",
-      "core": "ggear"
+      "core": "segaGG"
     },
     {
       "name": "Sonic Labyrinth.zip",
       "path": "ggear/Sonic Labyrinth.zip",
       "link": "https://smg.farfleet.com/ggear/Sonic%20Labyrinth.zip",
-      "core": "ggear"
+      "core": "segaGG"
     },
     {
       "name": "Tails Adventures (World) (En,Ja).zip",
       "path": "ggear/Tails Adventures (World) (En,Ja).zip",
       "link": "https://smg.farfleet.com/ggear/Tails%20Adventures%20%28World%29%20%28En%2CJa%29.zip",
-      "core": "ggear"
+      "core": "segaGG"
     },
     {
       "name": "Tails-Skypatrol_Game-Gear_EN.zip",
       "path": "ggear/Tails-Skypatrol_Game-Gear_EN.zip",
       "link": "https://smg.farfleet.com/ggear/Tails-Skypatrol_Game-Gear_EN.zip",
-      "core": "ggear"
+      "core": "segaGG"
     }
   ],
   "mame": [
@@ -1397,68 +1397,6 @@
       "core": "n64"
     }
   ],
-  "nds": [
-    {
-      "name": "Advance Wars - Dual Strike (USA) (Wii U Virtual Console).zip",
-      "path": "nds/Advance Wars - Dual Strike (USA) (Wii U Virtual Console).zip",
-      "link": "https://smg.farfleet.com/nds/Advance%20Wars%20-%20Dual%20Strike%20%28USA%29%20%28Wii%20U%20Virtual%20Console%29.zip",
-      "core": "nds"
-    },
-    {
-      "name": "Bejeweled3.zip",
-      "path": "nds/Bejeweled3.zip",
-      "link": "https://smg.farfleet.com/nds/Bejeweled3.zip",
-      "core": "nds"
-    },
-    {
-      "name": "Kirby Mass Attack (USA) (En,Fr,Es).7z",
-      "path": "nds/Kirby Mass Attack (USA) (En,Fr,Es).7z",
-      "link": "https://smg.farfleet.com/nds/Kirby%20Mass%20Attack%20%28USA%29%20%28En%2CFr%2CEs%29.7z",
-      "core": "nds"
-    },
-    {
-      "name": "Newer Super Mario Bros. DS.7z",
-      "path": "nds/Newer Super Mario Bros. DS.7z",
-      "link": "https://smg.farfleet.com/nds/Newer%20Super%20Mario%20Bros.%20DS.7z",
-      "core": "nds"
-    },
-    {
-      "name": "NSMBUDS.7z",
-      "path": "nds/NSMBUDS.7z",
-      "link": "https://smg.farfleet.com/nds/NSMBUDS.7z",
-      "core": "nds"
-    },
-    {
-      "name": "PokeDiamond.7z",
-      "path": "nds/PokeDiamond.7z",
-      "link": "https://smg.farfleet.com/nds/PokeDiamond.7z",
-      "core": "nds"
-    },
-    {
-      "name": "Pokemon Dash (USA).zip",
-      "path": "nds/Pokemon Dash (USA).zip",
-      "link": "https://smg.farfleet.com/nds/Pokemon%20Dash%20%28USA%29.zip",
-      "core": "nds"
-    },
-    {
-      "name": "PokePearl.7z",
-      "path": "nds/PokePearl.7z",
-      "link": "https://smg.farfleet.com/nds/PokePearl.7z",
-      "core": "nds"
-    },
-    {
-      "name": "Scribblenauts Collection (USA).7z",
-      "path": "nds/Scribblenauts Collection (USA).7z",
-      "link": "https://smg.farfleet.com/nds/Scribblenauts%20Collection%20%28USA%29.7z",
-      "core": "nds"
-    },
-    {
-      "name": "WarioWare - Touched! (USA).7z",
-      "path": "nds/WarioWare - Touched! (USA).7z",
-      "link": "https://smg.farfleet.com/nds/WarioWare%20-%20Touched%21%20%28USA%29.7z",
-      "core": "nds"
-    }
-  ],
   "nes": [
     {
       "name": "10-Yard Fight (USA, Europe).zip",
@@ -1848,31 +1786,31 @@
       "name": "Alex Kidd in Miracle World (USA, Europe) (Rev 1).zip",
       "path": "sms/Alex Kidd in Miracle World (USA, Europe) (Rev 1).zip",
       "link": "https://smg.farfleet.com/sms/Alex%20Kidd%20in%20Miracle%20World%20%28USA%2C%20Europe%29%20%28Rev%201%29.zip",
-      "core": "sms"
+      "core": "segaMS"
     },
     {
       "name": "Fantasy Zone (World) (Rev 2).zip",
       "path": "sms/Fantasy Zone (World) (Rev 2).zip",
       "link": "https://smg.farfleet.com/sms/Fantasy%20Zone%20%28World%29%20%28Rev%202%29.zip",
-      "core": "sms"
+      "core": "segaMS"
     },
     {
       "name": "Hang-On & Astro Warrior (USA).zip",
       "path": "sms/Hang-On & Astro Warrior (USA).zip",
       "link": "https://smg.farfleet.com/sms/Hang-On%20%26%20Astro%20Warrior%20%28USA%29.zip",
-      "core": "sms"
+      "core": "segaMS"
     },
     {
       "name": "Space Harrier (Japan, USA).zip",
       "path": "sms/Space Harrier (Japan, USA).zip",
       "link": "https://smg.farfleet.com/sms/Space%20Harrier%20%28Japan%2C%20USA%29.zip",
-      "core": "sms"
+      "core": "segaMS"
     },
     {
       "name": "Wonder Boy III - The Dragon's Trap (USA, Europe).zip",
       "path": "sms/Wonder Boy III - The Dragon's Trap (USA, Europe).zip",
       "link": "https://smg.farfleet.com/sms/Wonder%20Boy%20III%20-%20The%20Dragon%27s%20Trap%20%28USA%2C%20Europe%29.zip",
-      "core": "sms"
+      "core": "segaMS"
     }
   ],
   "ws": [
