@@ -7,9 +7,45 @@
       "core": "atari2600"
     },
     {
+      "name": "Asteroids (Japan, USA) (En).zip",
+      "path": "2600/Asteroids (Japan, USA) (En).zip",
+      "link": "https://smg.farfleet.com/2600/Asteroids%20%28Japan%2C%20USA%29%20%28En%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Battlezone (Japan, USA) (En).zip",
+      "path": "2600/Battlezone (Japan, USA) (En).zip",
+      "link": "https://smg.farfleet.com/2600/Battlezone%20%28Japan%2C%20USA%29%20%28En%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Beamrider (USA).zip",
+      "path": "2600/Beamrider (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Beamrider%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Dig Dug (USA) (1).zip",
+      "path": "2600/Dig Dug (USA) (1).zip",
+      "link": "https://smg.farfleet.com/2600/Dig%20Dug%20%28USA%29%20%281%29.zip",
+      "core": "atari2600"
+    },
+    {
       "name": "Dragster (USA).zip",
       "path": "2600/Dragster (USA).zip",
       "link": "https://smg.farfleet.com/2600/Dragster%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "E.T. - The Extra-Terrestrial (USA).zip",
+      "path": "2600/E.T. - The Extra-Terrestrial (USA).zip",
+      "link": "https://smg.farfleet.com/2600/E.T.%20-%20The%20Extra-Terrestrial%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Enduro (USA).zip",
+      "path": "2600/Enduro (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Enduro%20%28USA%29.zip",
       "core": "atari2600"
     },
     {
@@ -17,6 +53,102 @@
       "path": "2600/Halloween (USA).zip",
       "link": "https://smg.farfleet.com/2600/Halloween%20%28USA%29.zip",
       "core": "atari2600"
+    },
+    {
+      "name": "Missile Command (USA).zip",
+      "path": "2600/Missile Command (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Missile%20Command%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Ms. Pac-Man (USA).zip",
+      "path": "2600/Ms. Pac-Man (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Ms.%20Pac-Man%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Pac-Man (USA).zip",
+      "path": "2600/Pac-Man (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Pac-Man%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Pitfall! - Pitfall Harry's Jungle Adventure (USA).zip",
+      "path": "2600/Pitfall! - Pitfall Harry's Jungle Adventure (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Pitfall%21%20-%20Pitfall%20Harry%27s%20Jungle%20Adventure%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Q-bert (USA).zip",
+      "path": "2600/Q-bert (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Q-bert%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Space Invaders (USA).zip",
+      "path": "2600/Space Invaders (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Space%20Invaders%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Star Raiders (USA).zip",
+      "path": "2600/Star Raiders (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Star%20Raiders%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Tapper (USA).zip",
+      "path": "2600/Tapper (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Tapper%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Vanguard (USA).zip",
+      "path": "2600/Vanguard (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Vanguard%20%28USA%29.zip",
+      "core": "atari2600"
+    },
+    {
+      "name": "Yars' Revenge (USA).zip",
+      "path": "2600/Yars' Revenge (USA).zip",
+      "link": "https://smg.farfleet.com/2600/Yars%27%20Revenge%20%28USA%29.zip",
+      "core": "atari2600"
+    }
+  ],
+  "32x": [
+    {
+      "name": "Doom (Japan, USA).zip",
+      "path": "32x/Doom (Japan, USA).zip",
+      "link": "https://smg.farfleet.com/32x/Doom%20%28Japan%2C%20USA%29.zip",
+      "core": "32x"
+    },
+    {
+      "name": "Doom 32X (E) [!].zip",
+      "path": "32x/Doom 32X (E) [!].zip",
+      "link": "https://smg.farfleet.com/32x/Doom%2032X%20%28E%29%20%5B%21%5D.zip",
+      "core": "32x"
+    },
+    {
+      "name": "Knuckles' Chaotix (Japan, USA) (En).zip",
+      "path": "32x/Knuckles' Chaotix (Japan, USA) (En).zip",
+      "link": "https://smg.farfleet.com/32x/Knuckles%27%20Chaotix%20%28Japan%2C%20USA%29%20%28En%29.zip",
+      "core": "32x"
+    }
+  ],
+  "c64": [
+    {
+      "name": "OREGONT2_11322_01.zip",
+      "path": "c64/OREGONT2_11322_01.zip",
+      "link": "https://smg.farfleet.com/c64/OREGONT2_11322_01.zip",
+      "core": "c64"
+    }
+  ],
+  "coleco": [
+    {
+      "name": "Root Beer Tapper (USA).zip",
+      "path": "coleco/Root Beer Tapper (USA).zip",
+      "link": "https://smg.farfleet.com/coleco/Root%20Beer%20Tapper%20%28USA%29.zip",
+      "core": "coleco"
     }
   ],
   "gb": [
@@ -111,6 +243,12 @@
       "core": "gba"
     },
     {
+      "name": "Dig Dug (USA).zip",
+      "path": "gb/Dig Dug (USA).zip",
+      "link": "https://smg.farfleet.com/gb/Dig%20Dug%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
       "name": "Donkey Kong (Japan, USA) (En) (SGB Enhanced).zip",
       "path": "gb/Donkey Kong (Japan, USA) (En) (SGB Enhanced).zip",
       "link": "https://smg.farfleet.com/gb/Donkey%20Kong%20%28Japan%2C%20USA%29%20%28En%29%20%28SGB%20Enhanced%29.zip",
@@ -171,6 +309,12 @@
       "core": "gba"
     },
     {
+      "name": "FIFA 2000 (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
+      "path": "gb/FIFA 2000 (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
+      "link": "https://smg.farfleet.com/gb/FIFA%202000%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.zip",
+      "core": "gba"
+    },
+    {
       "name": "Final Fantasy Legend II (World) (Collection of SaGa).zip",
       "path": "gb/Final Fantasy Legend II (World) (Collection of SaGa).zip",
       "link": "https://smg.farfleet.com/gb/Final%20Fantasy%20Legend%20II%20%28World%29%20%28Collection%20of%20SaGa%29.zip",
@@ -207,6 +351,12 @@
       "core": "gba"
     },
     {
+      "name": "Game & Watch Gallery (USA) (SGB Enhanced).zip",
+      "path": "gb/Game & Watch Gallery (USA) (SGB Enhanced).zip",
+      "link": "https://smg.farfleet.com/gb/Game%20%26%20Watch%20Gallery%20%28USA%29%20%28SGB%20Enhanced%29.zip",
+      "core": "gba"
+    },
+    {
       "name": "Game & Watch Gallery 3 (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
       "path": "gb/Game & Watch Gallery 3 (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
       "link": "https://smg.farfleet.com/gb/Game%20%26%20Watch%20Gallery%203%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.zip",
@@ -222,6 +372,12 @@
       "name": "Glazed (9.2.0).7z",
       "path": "gb/Glazed (9.2.0).7z",
       "link": "https://smg.farfleet.com/gb/Glazed%20%289.2.0%29.7z",
+      "core": "gba"
+    },
+    {
+      "name": "Grand Theft Auto 2 (USA).zip",
+      "path": "gb/Grand Theft Auto 2 (USA).zip",
+      "link": "https://smg.farfleet.com/gb/Grand%20Theft%20Auto%202%20%28USA%29.zip",
       "core": "gba"
     },
     {
@@ -255,9 +411,21 @@
       "core": "gba"
     },
     {
+      "name": "Legend of Zelda, The - Link's Awakening (USA, Europe).zip",
+      "path": "gb/Legend of Zelda, The - Link's Awakening (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gb/Legend%20of%20Zelda%2C%20The%20-%20Link%27s%20Awakening%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
       "name": "Legend of Zelda, The - Link's Awakening DX (USA, Europe).zip",
       "path": "gb/Legend of Zelda, The - Link's Awakening DX (USA, Europe).zip",
       "link": "https://smg.farfleet.com/gb/Legend%20of%20Zelda%2C%20The%20-%20Link%27s%20Awakening%20DX%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Legend of Zelda, The - Oracle of Seasons (USA, Australia).zip",
+      "path": "gb/Legend of Zelda, The - Oracle of Seasons (USA, Australia).zip",
+      "link": "https://smg.farfleet.com/gb/Legend%20of%20Zelda%2C%20The%20-%20Oracle%20of%20Seasons%20%28USA%2C%20Australia%29.zip",
       "core": "gba"
     },
     {
@@ -297,6 +465,12 @@
       "core": "gba"
     },
     {
+      "name": "Mega Man II (USA).zip",
+      "path": "gb/Mega Man II (USA).zip",
+      "link": "https://smg.farfleet.com/gb/Mega%20Man%20II%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
       "name": "Mega Man V (USA) (SGB Enhanced).zip",
       "path": "gb/Mega Man V (USA) (SGB Enhanced).zip",
       "link": "https://smg.farfleet.com/gb/Mega%20Man%20V%20%28USA%29%20%28SGB%20Enhanced%29.zip",
@@ -318,6 +492,18 @@
       "name": "Mega Man Zero 4 (USA).zip",
       "path": "gb/Mega Man Zero 4 (USA).zip",
       "link": "https://smg.farfleet.com/gb/Mega%20Man%20Zero%204%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Metal Gear Solid (USA).zip",
+      "path": "gb/Metal Gear Solid (USA).zip",
+      "link": "https://smg.farfleet.com/gb/Metal%20Gear%20Solid%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Metroid II - Return of Samus (World).zip",
+      "path": "gb/Metroid II - Return of Samus (World).zip",
+      "link": "https://smg.farfleet.com/gb/Metroid%20II%20-%20Return%20of%20Samus%20%28World%29.zip",
       "core": "gba"
     },
     {
@@ -366,6 +552,42 @@
       "name": "PokeGreen.7z",
       "path": "gb/PokeGreen.7z",
       "link": "https://smg.farfleet.com/gb/PokeGreen.7z",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - Blue Version (USA, Europe) (SGB Enhanced).zip",
+      "path": "gb/Pokemon - Blue Version (USA, Europe) (SGB Enhanced).zip",
+      "link": "https://smg.farfleet.com/gb/Pokemon%20-%20Blue%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - Crystal Version (USA).zip",
+      "path": "gb/Pokemon - Crystal Version (USA).zip",
+      "link": "https://smg.farfleet.com/gb/Pokemon%20-%20Crystal%20Version%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - Gold Version (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
+      "path": "gb/Pokemon - Gold Version (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
+      "link": "https://smg.farfleet.com/gb/Pokemon%20-%20Gold%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - Red Version (USA, Europe) (SGB Enhanced).zip",
+      "path": "gb/Pokemon - Red Version (USA, Europe) (SGB Enhanced).zip",
+      "link": "https://smg.farfleet.com/gb/Pokemon%20-%20Red%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - Silver Version (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
+      "path": "gb/Pokemon - Silver Version (USA, Europe) (SGB Enhanced) (GB Compatible).zip",
+      "link": "https://smg.farfleet.com/gb/Pokemon%20-%20Silver%20Version%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (CGB+SGB Enhanced).zip",
+      "path": "gb/Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (CGB+SGB Enhanced).zip",
+      "link": "https://smg.farfleet.com/gb/Pokemon%20-%20Yellow%20Version%20-%20Special%20Pikachu%20Edition%20%28USA%2C%20Europe%29%20%28CGB%2BSGB%20Enhanced%29.zip",
       "core": "gba"
     },
     {
@@ -735,6 +957,18 @@
       "core": "gba"
     },
     {
+      "name": "Super Mario Land (World).zip",
+      "path": "gb/Super Mario Land (World).zip",
+      "link": "https://smg.farfleet.com/gb/Super%20Mario%20Land%20%28World%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Super Mario Land 2 - 6 Golden Coins (USA, Europe).zip",
+      "path": "gb/Super Mario Land 2 - 6 Golden Coins (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gb/Super%20Mario%20Land%202%20-%206%20Golden%20Coins%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
       "name": "Super Mario Land 2.7z",
       "path": "gb/Super Mario Land 2.7z",
       "link": "https://smg.farfleet.com/gb/Super%20Mario%20Land%202.7z",
@@ -744,6 +978,12 @@
       "name": "Super Mario Land DX.7z",
       "path": "gb/Super Mario Land DX.7z",
       "link": "https://smg.farfleet.com/gb/Super%20Mario%20Land%20DX.7z",
+      "core": "gba"
+    },
+    {
+      "name": "Tetris (World) (Rev 1).zip",
+      "path": "gb/Tetris (World) (Rev 1).zip",
+      "link": "https://smg.farfleet.com/gb/Tetris%20%28World%29%20%28Rev%201%29.zip",
       "core": "gba"
     },
     {
@@ -783,6 +1023,344 @@
       "core": "gba"
     }
   ],
+  "gba": [
+    {
+      "name": "007 - NightFire (USA, Europe) (En,Fr,De).zip",
+      "path": "gba/007 - NightFire (USA, Europe) (En,Fr,De).zip",
+      "link": "https://smg.farfleet.com/gba/007%20-%20NightFire%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Advance Wars (USA).zip",
+      "path": "gba/Advance Wars (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Advance%20Wars%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Advance Wars 2 - Black Hole Rising (USA).zip",
+      "path": "gba/Advance Wars 2 - Black Hole Rising (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Advance%20Wars%202%20-%20Black%20Hole%20Rising%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "all-in-v1.0.zip",
+      "path": "gba/all-in-v1.0.zip",
+      "link": "https://smg.farfleet.com/gba/all-in-v1.0.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Backyard Football (USA).zip",
+      "path": "gba/Backyard Football (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Backyard%20Football%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Castlevania - Aria of Sorrow (USA).zip",
+      "path": "gba/Castlevania - Aria of Sorrow (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Castlevania%20-%20Aria%20of%20Sorrow%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Crash Bandicoot - The Huge Adventure (USA).zip",
+      "path": "gba/Crash Bandicoot - The Huge Adventure (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Crash%20Bandicoot%20-%20The%20Huge%20Adventure%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Crash Bandicoot 2 - N-Tranced (USA).zip",
+      "path": "gba/Crash Bandicoot 2 - N-Tranced (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Crash%20Bandicoot%202%20-%20N-Tranced%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Doom II (USA).zip",
+      "path": "gba/Doom II (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Doom%20II%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Dragon Ball Z - Supersonic Warriors (USA).zip",
+      "path": "gba/Dragon Ball Z - Supersonic Warriors (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Dragon%20Ball%20Z%20-%20Supersonic%20Warriors%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "elite redux v2.5(2) (1).zip",
+      "path": "gba/elite redux v2.5(2) (1).zip",
+      "link": "https://smg.farfleet.com/gba/elite%20redux%20v2.5%282%29%20%281%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Elysium_A v2.4.0.zip",
+      "path": "gba/Elysium_A v2.4.0.zip",
+      "link": "https://smg.farfleet.com/gba/Elysium_A%20v2.4.0.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Elysium_B v2.4.0.zip",
+      "path": "gba/Elysium_B v2.4.0.zip",
+      "link": "https://smg.farfleet.com/gba/Elysium_B%20v2.4.0.zip",
+      "core": "gba"
+    },
+    {
+      "name": "enhanced v11.zip",
+      "path": "gba/enhanced v11.zip",
+      "link": "https://smg.farfleet.com/gba/enhanced%20v11.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Golden Sun - The Lost Age (USA, Europe).zip",
+      "path": "gba/Golden Sun - The Lost Age (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gba/Golden%20Sun%20-%20The%20Lost%20Age%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "gschronicles v2.7.6.zip",
+      "path": "gba/gschronicles v2.7.6.zip",
+      "link": "https://smg.farfleet.com/gba/gschronicles%20v2.7.6.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Hajime no Ippo - The Fighting (English v1.0).zip",
+      "path": "gba/Hajime no Ippo - The Fighting (English v1.0).zip",
+      "link": "https://smg.farfleet.com/gba/Hajime%20no%20Ippo%20-%20The%20Fighting%20%28English%20v1.0%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Kingdom Hearts - Chain of Memories (USA).zip",
+      "path": "gba/Kingdom Hearts - Chain of Memories (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Mario & Luigi - Superstar Saga (USA).zip",
+      "path": "gba/Mario & Luigi - Superstar Saga (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Mario%20%26%20Luigi%20-%20Superstar%20Saga%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Mat Hoffman's Pro BMX 2 (USA, Europe).zip",
+      "path": "gba/Mat Hoffman's Pro BMX 2 (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gba/Mat%20Hoffman%27s%20Pro%20BMX%202%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Metal Slug Advance (USA).zip",
+      "path": "gba/Metal Slug Advance (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Metal%20Slug%20Advance%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Mortal Kombat Advance (USA).zip",
+      "path": "gba/Mortal Kombat Advance (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Mortal%20Kombat%20Advance%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Nameless v5.45.zip",
+      "path": "gba/Nameless v5.45.zip",
+      "link": "https://smg.farfleet.com/gba/Nameless%20v5.45.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Need for Speed - Carbon - Own the City (USA, Europe) (En,Fr,De,Es,It).zip",
+      "path": "gba/Need for Speed - Carbon - Own the City (USA, Europe) (En,Fr,De,Es,It).zip",
+      "link": "https://smg.farfleet.com/gba/Need%20for%20Speed%20-%20Carbon%20-%20Own%20the%20City%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Need for Speed - Most Wanted (USA, Europe) (En,Fr,De,It).zip",
+      "path": "gba/Need for Speed - Most Wanted (USA, Europe) (En,Fr,De,It).zip",
+      "link": "https://smg.farfleet.com/gba/Need%20for%20Speed%20-%20Most%20Wanted%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CIt%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Need for Speed - Porsche Unleashed (USA).zip",
+      "path": "gba/Need for Speed - Porsche Unleashed (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Need%20for%20Speed%20-%20Porsche%20Unleashed%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Need for Speed - Underground (USA, Europe) (En,Fr,De,It).zip",
+      "path": "gba/Need for Speed - Underground (USA, Europe) (En,Fr,De,It).zip",
+      "link": "https://smg.farfleet.com/gba/Need%20for%20Speed%20-%20Underground%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CIt%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Need for Speed - Underground 2 (USA, Europe) (En,Fr,De,It).zip",
+      "path": "gba/Need for Speed - Underground 2 (USA, Europe) (En,Fr,De,It).zip",
+      "link": "https://smg.farfleet.com/gba/Need%20for%20Speed%20-%20Underground%202%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CIt%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "NHL 2002 (USA).zip",
+      "path": "gba/NHL 2002 (USA).zip",
+      "link": "https://smg.farfleet.com/gba/NHL%202002%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "NHL Hitz 2003 (USA).zip",
+      "path": "gba/NHL Hitz 2003 (USA).zip",
+      "link": "https://smg.farfleet.com/gba/NHL%20Hitz%202003%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Nicktoons - Freeze Frame Frenzy (USA).zip",
+      "path": "gba/Nicktoons - Freeze Frame Frenzy (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Nicktoons%20-%20Freeze%20Frame%20Frenzy%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "nightly-gbalatro-20251229-348899.zip",
+      "path": "gba/nightly-gbalatro-20251229-348899.zip",
+      "link": "https://smg.farfleet.com/gba/nightly-gbalatro-20251229-348899.zip",
+      "core": "gba"
+    },
+    {
+      "name": "odyssey v4.1.zip",
+      "path": "gba/odyssey v4.1.zip",
+      "link": "https://smg.farfleet.com/gba/odyssey%20v4.1.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pac-Man World (USA) (1).zip",
+      "path": "gba/Pac-Man World (USA) (1).zip",
+      "link": "https://smg.farfleet.com/gba/Pac-Man%20World%20%28USA%29%20%281%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "pisces v1.5.4.zip",
+      "path": "gba/pisces v1.5.4.zip",
+      "link": "https://smg.farfleet.com/gba/pisces%20v1.5.4.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - LeafGreen Version (USA, Europe).zip",
+      "path": "gba/Pokemon - LeafGreen Version (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gba/Pokemon%20-%20LeafGreen%20Version%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon - Ruby Version (USA, Europe).zip",
+      "path": "gba/Pokemon - Ruby Version (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gba/Pokemon%20-%20Ruby%20Version%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon Crown (Beta 1 v9) (1) (1).zip",
+      "path": "gba/Pokemon Crown (Beta 1 v9) (1) (1).zip",
+      "link": "https://smg.farfleet.com/gba/Pokemon%20Crown%20%28Beta%201%20v9%29%20%281%29%20%281%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon Dreamstone Mysteries.gba.zip",
+      "path": "gba/Pokemon Dreamstone Mysteries.gba.zip",
+      "link": "https://smg.farfleet.com/gba/Pokemon%20Dreamstone%20Mysteries.gba.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon Fused Dimensions (v2.3) (1).zip",
+      "path": "gba/Pokemon Fused Dimensions (v2.3) (1).zip",
+      "link": "https://smg.farfleet.com/gba/Pokemon%20Fused%20Dimensions%20%28v2.3%29%20%281%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Pokemon The Last Fire Red (v4.0.3).zip",
+      "path": "gba/Pokemon The Last Fire Red (v4.0.3).zip",
+      "link": "https://smg.farfleet.com/gba/Pokemon%20The%20Last%20Fire%20Red%20%28v4.0.3%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "pokemon_gaia_v3.2.gba.zip",
+      "path": "gba/pokemon_gaia_v3.2.gba.zip",
+      "link": "https://smg.farfleet.com/gba/pokemon_gaia_v3.2.gba.zip",
+      "core": "gba"
+    },
+    {
+      "name": "PokemonQuetzalEnglishAlpha8v2.zip",
+      "path": "gba/PokemonQuetzalEnglishAlpha8v2.zip",
+      "link": "https://smg.farfleet.com/gba/PokemonQuetzalEnglishAlpha8v2.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Sonic Battle (USA) (En,Ja,Fr,De,Es,It).zip",
+      "path": "gba/Sonic Battle (USA) (En,Ja,Fr,De,Es,It).zip",
+      "link": "https://smg.farfleet.com/gba/Sonic%20Battle%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Street Fighter Alpha 3 (USA).zip",
+      "path": "gba/Street Fighter Alpha 3 (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Street%20Fighter%20Alpha%203%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Super Mario Advance 2 - Super Mario World (USA, Australia).zip",
+      "path": "gba/Super Mario Advance 2 - Super Mario World (USA, Australia).zip",
+      "link": "https://smg.farfleet.com/gba/Super%20Mario%20Advance%202%20-%20Super%20Mario%20World%20%28USA%2C%20Australia%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Super Mario Advance 3 - Yoshi's Island (USA).zip",
+      "path": "gba/Super Mario Advance 3 - Yoshi's Island (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Super%20Mario%20Advance%203%20-%20Yoshi%27s%20Island%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Super Monkey Ball Jr. (USA).zip",
+      "path": "gba/Super Monkey Ball Jr. (USA).zip",
+      "link": "https://smg.farfleet.com/gba/Super%20Monkey%20Ball%20Jr.%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Super Street Fighter II Turbo - Revival (USA) (2).zip",
+      "path": "gba/Super Street Fighter II Turbo - Revival (USA) (2).zip",
+      "link": "https://smg.farfleet.com/gba/Super%20Street%20Fighter%20II%20Turbo%20-%20Revival%20%28USA%29%20%282%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 2 (USA, Europe) (1).zip",
+      "path": "gba/Tony Hawk's Pro Skater 2 (USA, Europe) (1).zip",
+      "link": "https://smg.farfleet.com/gba/Tony%20Hawk%27s%20Pro%20Skater%202%20%28USA%2C%20Europe%29%20%281%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 2 (USA, Europe).zip",
+      "path": "gba/Tony Hawk's Pro Skater 2 (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gba/Tony%20Hawk%27s%20Pro%20Skater%202%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 4 (USA, Europe).zip",
+      "path": "gba/Tony Hawk's Pro Skater 4 (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gba/Tony%20Hawk%27s%20Pro%20Skater%204%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Tony Hawk's Underground (USA, Europe).zip",
+      "path": "gba/Tony Hawk's Underground (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gba/Tony%20Hawk%27s%20Underground%20%28USA%2C%20Europe%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Too Many Types (v1.6).zip",
+      "path": "gba/Too Many Types (v1.6).zip",
+      "link": "https://smg.farfleet.com/gba/Too%20Many%20Types%20%28v1.6%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "WarioWare, Inc. - Mega Microgame$! (USA).zip",
+      "path": "gba/WarioWare, Inc. - Mega Microgame$! (USA).zip",
+      "link": "https://smg.farfleet.com/gba/WarioWare%2C%20Inc.%20-%20Mega%20Microgame%24%21%20%28USA%29.zip",
+      "core": "gba"
+    },
+    {
+      "name": "Z (v1.2.0).zip",
+      "path": "gba/Z (v1.2.0).zip",
+      "link": "https://smg.farfleet.com/gba/Z%20%28v1.2.0%29.zip",
+      "core": "gba"
+    }
+  ],
   "gen": [
     {
       "name": "[SHC2017] [expo2017] 50 - Sonic The Return of Shadow - By JoenickROS.bin",
@@ -791,9 +1369,51 @@
       "core": "segaMD"
     },
     {
+      "name": "Another World (Europe).zip",
+      "path": "gen/Another World (Europe).zip",
+      "link": "https://smg.farfleet.com/gen/Another%20World%20%28Europe%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Bubsy in - Claws Encounters of the Furred Kind (USA, Europe).zip",
+      "path": "gen/Bubsy in - Claws Encounters of the Furred Kind (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gen/Bubsy%20in%20-%20Claws%20Encounters%20of%20the%20Furred%20Kind%20%28USA%2C%20Europe%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Captain Lang (Japan) (En,Ja).zip",
+      "path": "gen/Captain Lang (Japan) (En,Ja).zip",
+      "link": "https://smg.farfleet.com/gen/Captain%20Lang%20%28Japan%29%20%28En%2CJa%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Dynamite Headdy (USA, Europe).zip",
+      "path": "gen/Dynamite Headdy (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gen/Dynamite%20Headdy%20%28USA%2C%20Europe%29.zip",
+      "core": "segaMD"
+    },
+    {
       "name": "Ecco the Dolphin (USA, Europe, Korea) (En).zip",
       "path": "gen/Ecco the Dolphin (USA, Europe, Korea) (En).zip",
       "link": "https://smg.farfleet.com/gen/Ecco%20the%20Dolphin%20%28USA%2C%20Europe%2C%20Korea%29%20%28En%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "FIFA Soccer 95 (USA, Europe) (En,Fr,De,Es).zip",
+      "path": "gen/FIFA Soccer 95 (USA, Europe) (En,Fr,De,Es).zip",
+      "link": "https://smg.farfleet.com/gen/FIFA%20Soccer%2095%20%28USA%2C%20Europe%29%20%28En%2CFr%2CDe%2CEs%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Garfield - Caught in the Act (USA, Europe).zip",
+      "path": "gen/Garfield - Caught in the Act (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gen/Garfield%20-%20Caught%20in%20the%20Act%20%28USA%2C%20Europe%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "General Chaos (USA, Europe).zip",
+      "path": "gen/General Chaos (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gen/General%20Chaos%20%28USA%2C%20Europe%29.zip",
       "core": "segaMD"
     },
     {
@@ -815,6 +1435,18 @@
       "core": "segaMD"
     },
     {
+      "name": "Mega Man - The Wily Wars (Europe).zip",
+      "path": "gen/Mega Man - The Wily Wars (Europe).zip",
+      "link": "https://smg.farfleet.com/gen/Mega%20Man%20-%20The%20Wily%20Wars%20%28Europe%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Metal_Sonic_HYPERDRIVE_v4.2.zip",
+      "path": "gen/Metal_Sonic_HYPERDRIVE_v4.2.zip",
+      "link": "https://smg.farfleet.com/gen/Metal_Sonic_HYPERDRIVE_v4.2.zip",
+      "core": "segaMD"
+    },
+    {
       "name": "Metal_Sonic_Rebooted.bin",
       "path": "gen/Metal_Sonic_Rebooted.bin",
       "link": "https://smg.farfleet.com/gen/Metal_Sonic_Rebooted.bin",
@@ -827,9 +1459,27 @@
       "core": "segaMD"
     },
     {
+      "name": "Mortal Kombat 3 (USA).zip",
+      "path": "gen/Mortal Kombat 3 (USA).zip",
+      "link": "https://smg.farfleet.com/gen/Mortal%20Kombat%203%20%28USA%29.zip",
+      "core": "segaMD"
+    },
+    {
       "name": "Puyo Puyo (English v1.0)[USA].zip",
       "path": "gen/Puyo Puyo (English v1.0)[USA].zip",
       "link": "https://smg.farfleet.com/gen/Puyo%20Puyo%20%28English%20v1.0%29%5BUSA%5D.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Ristar (USA, Europe).zip",
+      "path": "gen/Ristar (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/gen/Ristar%20%28USA%2C%20Europe%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Rocket Knight Adventures (USA).zip",
+      "path": "gen/Rocket Knight Adventures (USA).zip",
+      "link": "https://smg.farfleet.com/gen/Rocket%20Knight%20Adventures%20%28USA%29.zip",
       "core": "segaMD"
     },
     {
@@ -857,6 +1507,12 @@
       "core": "segaMD"
     },
     {
+      "name": "Sonic & Knuckles (World).zip",
+      "path": "gen/Sonic & Knuckles (World).zip",
+      "link": "https://smg.farfleet.com/gen/Sonic%20%26%20Knuckles%20%28World%29.zip",
+      "core": "segaMD"
+    },
+    {
       "name": "Sonic 2 Time and Place.bin",
       "path": "gen/Sonic 2 Time and Place.bin",
       "link": "https://smg.farfleet.com/gen/Sonic%202%20Time%20and%20Place.bin",
@@ -869,9 +1525,33 @@
       "core": "segaMD"
     },
     {
+      "name": "Sonic 3D Blast - Director's Cut (World) (Unl).zip",
+      "path": "gen/Sonic 3D Blast - Director's Cut (World) (Unl).zip",
+      "link": "https://smg.farfleet.com/gen/Sonic%203D%20Blast%20-%20Director%27s%20Cut%20%28World%29%20%28Unl%29.zip",
+      "core": "segaMD"
+    },
+    {
       "name": "Sonic Scorched Quest - SHC'16 version.bin",
       "path": "gen/Sonic Scorched Quest - SHC'16 version.bin",
       "link": "https://smg.farfleet.com/gen/Sonic%20Scorched%20Quest%20-%20SHC%2716%20version.bin",
+      "core": "segaMD"
+    },
+    {
+      "name": "sonic-delta-origins.zip",
+      "path": "gen/sonic-delta-origins.zip",
+      "link": "https://smg.farfleet.com/gen/sonic-delta-origins.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Sonic3C_130810.zip",
+      "path": "gen/Sonic3C_130810.zip",
+      "link": "https://smg.farfleet.com/gen/Sonic3C_130810.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Sonic_1_Megamix_v3.0.zip",
+      "path": "gen/Sonic_1_Megamix_v3.0.zip",
+      "link": "https://smg.farfleet.com/gen/Sonic_1_Megamix_v3.0.zip",
       "core": "segaMD"
     },
     {
@@ -881,13 +1561,37 @@
       "core": "segaMD"
     },
     {
+      "name": "Steel Empire (USA).zip",
+      "path": "gen/Steel Empire (USA).zip",
+      "link": "https://smg.farfleet.com/gen/Steel%20Empire%20%28USA%29.zip",
+      "core": "segaMD"
+    },
+    {
       "name": "Toy Story (USA).zip",
       "path": "gen/Toy Story (USA).zip",
       "link": "https://smg.farfleet.com/gen/Toy%20Story%20%28USA%29.zip",
       "core": "segaMD"
+    },
+    {
+      "name": "Ultimate Mortal Kombat 3 (USA).zip",
+      "path": "gen/Ultimate Mortal Kombat 3 (USA).zip",
+      "link": "https://smg.farfleet.com/gen/Ultimate%20Mortal%20Kombat%203%20%28USA%29.zip",
+      "core": "segaMD"
+    },
+    {
+      "name": "Zombies Ate My Neighbors (USA).zip",
+      "path": "gen/Zombies Ate My Neighbors (USA).zip",
+      "link": "https://smg.farfleet.com/gen/Zombies%20Ate%20My%20Neighbors%20%28USA%29.zip",
+      "core": "segaMD"
     }
   ],
   "ggear": [
+    {
+      "name": "GG Shinobi, The (Japan) (En).zip",
+      "path": "ggear/GG Shinobi, The (Japan) (En).zip",
+      "link": "https://smg.farfleet.com/ggear/GG%20Shinobi%2C%20The%20%28Japan%29%20%28En%29.zip",
+      "core": "segaGG"
+    },
     {
       "name": "Sonic Blast.zip",
       "path": "ggear/Sonic Blast.zip",
@@ -919,6 +1623,18 @@
       "core": "segaGG"
     },
     {
+      "name": "Sonic The Hedgehog (World) (Rev A).zip",
+      "path": "ggear/Sonic The Hedgehog (World) (Rev A).zip",
+      "link": "https://smg.farfleet.com/ggear/Sonic%20The%20Hedgehog%20%28World%29%20%28Rev%20A%29.zip",
+      "core": "segaGG"
+    },
+    {
+      "name": "Sonic The Hedgehog 2 (World).zip",
+      "path": "ggear/Sonic The Hedgehog 2 (World).zip",
+      "link": "https://smg.farfleet.com/ggear/Sonic%20The%20Hedgehog%202%20%28World%29.zip",
+      "core": "segaGG"
+    },
+    {
       "name": "Tails Adventures (World) (En,Ja).zip",
       "path": "ggear/Tails Adventures (World) (En,Ja).zip",
       "link": "https://smg.farfleet.com/ggear/Tails%20Adventures%20%28World%29%20%28En%2CJa%29.zip",
@@ -931,11 +1647,85 @@
       "core": "segaGG"
     }
   ],
+  "jaguar": [
+    {
+      "name": "Alien vs Predator (World).zip",
+      "path": "jaguar/Alien vs Predator (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Alien%20vs%20Predator%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Cannon Fodder (World).zip",
+      "path": "jaguar/Cannon Fodder (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Cannon%20Fodder%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Doom (World).zip",
+      "path": "jaguar/Doom (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Doom%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Evolution - Dino Dudes (World).zip",
+      "path": "jaguar/Evolution - Dino Dudes (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Evolution%20-%20Dino%20Dudes%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Iron Soldier (World).zip",
+      "path": "jaguar/Iron Soldier (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Iron%20Soldier%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "NBA Jam - Tournament Edition (USA, Europe).zip",
+      "path": "jaguar/NBA Jam - Tournament Edition (USA, Europe).zip",
+      "link": "https://smg.farfleet.com/jaguar/NBA%20Jam%20-%20Tournament%20Edition%20%28USA%2C%20Europe%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Rayman (World).zip",
+      "path": "jaguar/Rayman (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Rayman%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Tempest 2000 (World).zip",
+      "path": "jaguar/Tempest 2000 (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Tempest%202000%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Theme Park (World).zip",
+      "path": "jaguar/Theme Park (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Theme%20Park%20%28World%29.zip",
+      "core": "jaguar"
+    },
+    {
+      "name": "Wolfenstein 3D (World).zip",
+      "path": "jaguar/Wolfenstein 3D (World).zip",
+      "link": "https://smg.farfleet.com/jaguar/Wolfenstein%203D%20%28World%29.zip",
+      "core": "jaguar"
+    }
+  ],
   "mame": [
     {
       "name": "20pacgal.zip",
       "path": "mame/20pacgal.zip",
       "link": "https://smg.farfleet.com/mame/20pacgal.zip",
+      "core": "mame"
+    },
+    {
+      "name": "20pacgalr4 (UGS).zip",
+      "path": "mame/20pacgalr4 (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/20pacgalr4%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "20pacgalr4.zip",
+      "path": "mame/20pacgalr4.zip",
+      "link": "https://smg.farfleet.com/mame/20pacgalr4.zip",
       "core": "mame"
     },
     {
@@ -1059,15 +1849,87 @@
       "core": "mame"
     },
     {
+      "name": "mk (UGS).zip",
+      "path": "mame/mk (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/mk%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mk.zip",
+      "path": "mame/mk.zip",
+      "link": "https://smg.farfleet.com/mame/mk.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mk2 (UGS).zip",
+      "path": "mame/mk2 (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/mk2%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mk2.zip",
+      "path": "mame/mk2.zip",
+      "link": "https://smg.farfleet.com/mame/mk2.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mk3 (UGS).zip",
+      "path": "mame/mk3 (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/mk3%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mk3.zip",
+      "path": "mame/mk3.zip",
+      "link": "https://smg.farfleet.com/mame/mk3.zip",
+      "core": "mame"
+    },
+    {
       "name": "mshu.zip",
       "path": "mame/mshu.zip",
       "link": "https://smg.farfleet.com/mame/mshu.zip",
       "core": "mame"
     },
     {
+      "name": "mslug (UGS).zip",
+      "path": "mame/mslug (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/mslug%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mslug.zip",
+      "path": "mame/mslug.zip",
+      "link": "https://smg.farfleet.com/mame/mslug.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mslug2 (UGS).zip",
+      "path": "mame/mslug2 (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/mslug2%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mslug2.zip",
+      "path": "mame/mslug2.zip",
+      "link": "https://smg.farfleet.com/mame/mslug2.zip",
+      "core": "mame"
+    },
+    {
       "name": "mspacman.zip",
       "path": "mame/mspacman.zip",
       "link": "https://smg.farfleet.com/mame/mspacman.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mvsc (UGS).zip",
+      "path": "mame/mvsc (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/mvsc%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "mvsc.zip",
+      "path": "mame/mvsc.zip",
+      "link": "https://smg.farfleet.com/mame/mvsc.zip",
       "core": "mame"
     },
     {
@@ -1086,6 +1948,18 @@
       "name": "outrun.zip",
       "path": "mame/outrun.zip",
       "link": "https://smg.farfleet.com/mame/outrun.zip",
+      "core": "mame"
+    },
+    {
+      "name": "pacman (UGS).zip",
+      "path": "mame/pacman (UGS).zip",
+      "link": "https://smg.farfleet.com/mame/pacman%20%28UGS%29.zip",
+      "core": "mame"
+    },
+    {
+      "name": "pacman.zip",
+      "path": "mame/pacman.zip",
+      "link": "https://smg.farfleet.com/mame/pacman.zip",
       "core": "mame"
     },
     {
@@ -1223,6 +2097,12 @@
   ],
   "n64": [
     {
+      "name": "B3313 (v0.7).zip",
+      "path": "n64/B3313 (v0.7).zip",
+      "link": "https://smg.farfleet.com/n64/B3313%20%28v0.7%29.zip",
+      "core": "n64"
+    },
+    {
       "name": "B3313 Unabandoned A2.7z",
       "path": "n64/B3313 Unabandoned A2.7z",
       "link": "https://smg.farfleet.com/n64/B3313%20Unabandoned%20A2.7z",
@@ -1247,9 +2127,33 @@
       "core": "n64"
     },
     {
+      "name": "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "path": "n64/FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "link": "https://smg.farfleet.com/n64/FIFA%20-%20Road%20to%20World%20Cup%2098%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv).zip",
+      "path": "n64/FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv).zip",
+      "link": "https://smg.farfleet.com/n64/FIFA%2099%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%2CSv%29.zip",
+      "core": "n64"
+    },
+    {
       "name": "fp-v3.4-us.7z",
       "path": "n64/fp-v3.4-us.7z",
       "link": "https://smg.farfleet.com/n64/fp-v3.4-us.7z",
+      "core": "n64"
+    },
+    {
+      "name": "Glover (USA).zip",
+      "path": "n64/Glover (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Glover%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Harvest Moon 64 (USA).zip",
+      "path": "n64/Harvest Moon 64 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Harvest%20Moon%2064%20%28USA%29.zip",
       "core": "n64"
     },
     {
@@ -1259,9 +2163,63 @@
       "core": "n64"
     },
     {
+      "name": "Legend of Zelda, The_ Majora's Mask.zip",
+      "path": "n64/Legend of Zelda, The_ Majora's Mask.zip",
+      "link": "https://smg.farfleet.com/n64/Legend%20of%20Zelda%2C%20The_%20Majora%27s%20Mask.zip",
+      "core": "n64"
+    },
+    {
       "name": "LEGO Racers (USA).zip",
       "path": "n64/LEGO Racers (USA).zip",
       "link": "https://smg.farfleet.com/n64/LEGO%20Racers%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Madden Football 64 (USA).zip",
+      "path": "n64/Madden Football 64 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Madden%20Football%2064%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Madden NFL 2000 (USA).zip",
+      "path": "n64/Madden NFL 2000 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Madden%20NFL%202000%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Madden NFL 2001 (USA).zip",
+      "path": "n64/Madden NFL 2001 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Madden%20NFL%202001%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Madden NFL 2002 (USA).zip",
+      "path": "n64/Madden NFL 2002 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Madden%20NFL%202002%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Madden NFL 99 (USA).zip",
+      "path": "n64/Madden NFL 99 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Madden%20NFL%2099%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Mario Party 2 (USA).zip",
+      "path": "n64/Mario Party 2 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Mario%20Party%202%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Mario Party 3 (USA).zip",
+      "path": "n64/Mario Party 3 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Mario%20Party%203%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Mario Tennis (USA).zip",
+      "path": "n64/Mario Tennis (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Mario%20Tennis%20%28USA%29.zip",
       "core": "n64"
     },
     {
@@ -1274,6 +2232,24 @@
       "name": "Mortal Kombat Mythologies - Sub-Zero (USA).zip",
       "path": "n64/Mortal Kombat Mythologies - Sub-Zero (USA).zip",
       "link": "https://smg.farfleet.com/n64/Mortal%20Kombat%20Mythologies%20-%20Sub-Zero%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "NBA Hangtime (USA).zip",
+      "path": "n64/NBA Hangtime (USA).zip",
+      "link": "https://smg.farfleet.com/n64/NBA%20Hangtime%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "NBA Live 2000 (USA) (En,Fr,De,Es).zip",
+      "path": "n64/NBA Live 2000 (USA) (En,Fr,De,Es).zip",
+      "link": "https://smg.farfleet.com/n64/NBA%20Live%202000%20%28USA%29%20%28En%2CFr%2CDe%2CEs%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "NFL Blitz (USA).zip",
+      "path": "n64/NFL Blitz (USA).zip",
+      "link": "https://smg.farfleet.com/n64/NFL%20Blitz%20%28USA%29.zip",
       "core": "n64"
     },
     {
@@ -1295,6 +2271,12 @@
       "core": "n64"
     },
     {
+      "name": "Paper Mario (USA).zip",
+      "path": "n64/Paper Mario (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Paper%20Mario%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
       "name": "Paper Mario Black Pit.7z",
       "path": "n64/Paper Mario Black Pit.7z",
       "link": "https://smg.farfleet.com/n64/Paper%20Mario%20Black%20Pit.7z",
@@ -1310,6 +2292,12 @@
       "name": "Pilotwings 64 (USA).zip",
       "path": "n64/Pilotwings 64 (USA).zip",
       "link": "https://smg.farfleet.com/n64/Pilotwings%2064%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Pokemon Stadium (Japan).zip",
+      "path": "n64/Pokemon Stadium (Japan).zip",
+      "link": "https://smg.farfleet.com/n64/Pokemon%20Stadium%20%28Japan%29.zip",
       "core": "n64"
     },
     {
@@ -1343,6 +2331,12 @@
       "core": "n64"
     },
     {
+      "name": "SM64+The+Hidden+Stars+testbuild1hotfix5.zip",
+      "path": "n64/SM64+The+Hidden+Stars+testbuild1hotfix5.zip",
+      "link": "https://smg.farfleet.com/n64/SM64%2BThe%2BHidden%2BStars%2Btestbuild1hotfix5.zip",
+      "core": "n64"
+    },
+    {
       "name": "Somari 64 DASH - v.1.0.7z",
       "path": "n64/Somari 64 DASH - v.1.0.7z",
       "link": "https://smg.farfleet.com/n64/Somari%2064%20DASH%20-%20v.1.0.7z",
@@ -1358,6 +2352,18 @@
       "name": "South Park (USA).zip",
       "path": "n64/South Park (USA).zip",
       "link": "https://smg.farfleet.com/n64/South%20Park%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Super Mario 64 (USA).zip",
+      "path": "n64/Super Mario 64 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Super%20Mario%2064%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "Super Mario 64 - Shindou Edition (J) [!].zip",
+      "path": "n64/Super Mario 64 - Shindou Edition (J) [!].zip",
+      "link": "https://smg.farfleet.com/n64/Super%20Mario%2064%20-%20Shindou%20Edition%20%28J%29%20%5B%21%5D.zip",
       "core": "n64"
     },
     {
@@ -1395,6 +2401,206 @@
       "path": "n64/TheNewTetris.zip",
       "link": "https://smg.farfleet.com/n64/TheNewTetris.zip",
       "core": "n64"
+    },
+    {
+      "name": "Triple Play 2000 (USA).zip",
+      "path": "n64/Triple Play 2000 (USA).zip",
+      "link": "https://smg.farfleet.com/n64/Triple%20Play%202000%20%28USA%29.zip",
+      "core": "n64"
+    },
+    {
+      "name": "World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv,Da).zip",
+      "path": "n64/World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv,Da).zip",
+      "link": "https://smg.farfleet.com/n64/World%20Cup%2098%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CSv%2CDa%29.zip",
+      "core": "n64"
+    }
+  ],
+  "nds": [
+    {
+      "name": "Animal Crossing - Wild World (USA) (Rev 1).zip",
+      "path": "nds/Animal Crossing - Wild World (USA) (Rev 1).zip",
+      "link": "https://smg.farfleet.com/nds/Animal%20Crossing%20-%20Wild%20World%20%28USA%29%20%28Rev%201%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Animal Crossing - Wild World (USA).zip",
+      "path": "nds/Animal Crossing - Wild World (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Animal%20Crossing%20-%20Wild%20World%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Backyard Baseball '09 (USA).zip",
+      "path": "nds/Backyard Baseball '09 (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Backyard%20Baseball%20%2709%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Backyard Baseball '10 (USA).zip",
+      "path": "nds/Backyard Baseball '10 (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Backyard%20Baseball%20%2710%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Ben 10 - Alien Force (USA) (En,Fr,De,Es,It).zip",
+      "path": "nds/Ben 10 - Alien Force (USA) (En,Fr,De,Es,It).zip",
+      "link": "https://smg.farfleet.com/nds/Ben%2010%20-%20Alien%20Force%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Ben 10 - Galactic Racing (USA) (En,Fr,De,Es,It).zip",
+      "path": "nds/Ben 10 - Galactic Racing (USA) (En,Fr,De,Es,It).zip",
+      "link": "https://smg.farfleet.com/nds/Ben%2010%20-%20Galactic%20Racing%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Ben 10 - Omniverse (USA) (En,Fr,Es).zip",
+      "path": "nds/Ben 10 - Omniverse (USA) (En,Fr,Es).zip",
+      "link": "https://smg.farfleet.com/nds/Ben%2010%20-%20Omniverse%20%28USA%29%20%28En%2CFr%2CEs%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Ben 10 - Protector of Earth (USA).zip",
+      "path": "nds/Ben 10 - Protector of Earth (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Ben%2010%20-%20Protector%20of%20Earth%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Ben 10 - Ultimate Alien - Cosmic Destruction (USA) (En,Fr,De,Es,It).zip",
+      "path": "nds/Ben 10 - Ultimate Alien - Cosmic Destruction (USA) (En,Fr,De,Es,It).zip",
+      "link": "https://smg.farfleet.com/nds/Ben%2010%20-%20Ultimate%20Alien%20-%20Cosmic%20Destruction%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Cooking Mama (USA).zip",
+      "path": "nds/Cooking Mama (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Cooking%20Mama%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Cooking Mama 2 - Dinner with Friends (USA).zip",
+      "path": "nds/Cooking Mama 2 - Dinner with Friends (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Cooking%20Mama%202%20-%20Dinner%20with%20Friends%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Dementium - The Ward (USA).zip",
+      "path": "nds/Dementium - The Ward (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Dementium%20-%20The%20Ward%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Drawn to Life (USA) (En,Fr).zip",
+      "path": "nds/Drawn to Life (USA) (En,Fr).zip",
+      "link": "https://smg.farfleet.com/nds/Drawn%20to%20Life%20%28USA%29%20%28En%2CFr%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Etrian Odyssey (USA).zip",
+      "path": "nds/Etrian Odyssey (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Etrian%20Odyssey%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "FIFA 10 (Europe) (En,Fr,De,Es,It).zip",
+      "path": "nds/FIFA 10 (Europe) (En,Fr,De,Es,It).zip",
+      "link": "https://smg.farfleet.com/nds/FIFA%2010%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "FIFA 11 (Europe) (En,Fr,De,Es,It) (NDSi Enhanced).zip",
+      "path": "nds/FIFA 11 (Europe) (En,Fr,De,Es,It) (NDSi Enhanced).zip",
+      "link": "https://smg.farfleet.com/nds/FIFA%2011%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29%20%28NDSi%20Enhanced%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "FIFA Soccer 06 (USA).zip",
+      "path": "nds/FIFA Soccer 06 (USA).zip",
+      "link": "https://smg.farfleet.com/nds/FIFA%20Soccer%2006%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "FIFA Street 2 (Europe) (En,Fr,De).zip",
+      "path": "nds/FIFA Street 2 (Europe) (En,Fr,De).zip",
+      "link": "https://smg.farfleet.com/nds/FIFA%20Street%202%20%28Europe%29%20%28En%2CFr%2CDe%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Kirby - Squeak Squad (USA).zip",
+      "path": "nds/Kirby - Squeak Squad (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Kirby%20-%20Squeak%20Squad%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "LEGO Star Wars II - The Original Trilogy (USA).zip",
+      "path": "nds/LEGO Star Wars II - The Original Trilogy (USA).zip",
+      "link": "https://smg.farfleet.com/nds/LEGO%20Star%20Wars%20II%20-%20The%20Original%20Trilogy%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Mario Kart DS (USA, Australia) (En,Fr,De,Es,It).zip",
+      "path": "nds/Mario Kart DS (USA, Australia) (En,Fr,De,Es,It).zip",
+      "link": "https://smg.farfleet.com/nds/Mario%20Kart%20DS%20%28USA%2C%20Australia%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Mario Party DS (USA).zip",
+      "path": "nds/Mario Party DS (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Mario%20Party%20DS%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "N+ (USA).zip",
+      "path": "nds/N+ (USA).zip",
+      "link": "https://smg.farfleet.com/nds/N%2B%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "New Super Mario Bros. (USA, Australia).zip",
+      "path": "nds/New Super Mario Bros. (USA, Australia).zip",
+      "link": "https://smg.farfleet.com/nds/New%20Super%20Mario%20Bros.%20%28USA%2C%20Australia%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Nintendogs - Lab & Friends (USA, Australia).zip",
+      "path": "nds/Nintendogs - Lab & Friends (USA, Australia).zip",
+      "link": "https://smg.farfleet.com/nds/Nintendogs%20-%20Lab%20%26%20Friends%20%28USA%2C%20Australia%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Phoenix Wright - Ace Attorney - Justice for All (USA).zip",
+      "path": "nds/Phoenix Wright - Ace Attorney - Justice for All (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Phoenix%20Wright%20-%20Ace%20Attorney%20-%20Justice%20for%20All%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Phoenix Wright - Ace Attorney - Trials and Tribulations (USA).zip",
+      "path": "nds/Phoenix Wright - Ace Attorney - Trials and Tribulations (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Phoenix%20Wright%20-%20Ace%20Attorney%20-%20Trials%20and%20Tribulations%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Pokemon - Diamond Version (USA) (Rev 5).zip",
+      "path": "nds/Pokemon - Diamond Version (USA) (Rev 5).zip",
+      "link": "https://smg.farfleet.com/nds/Pokemon%20-%20Diamond%20Version%20%28USA%29%20%28Rev%205%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Scribblenauts (USA) (En,Fr,Es,Pt).zip",
+      "path": "nds/Scribblenauts (USA) (En,Fr,Es,Pt).zip",
+      "link": "https://smg.farfleet.com/nds/Scribblenauts%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Super Mario 64 DS (USA).zip",
+      "path": "nds/Super Mario 64 DS (USA).zip",
+      "link": "https://smg.farfleet.com/nds/Super%20Mario%2064%20DS%20%28USA%29.zip",
+      "core": "nds"
+    },
+    {
+      "name": "Super Scribblenauts (USA) (En,Fr,Es,Pt).zip",
+      "path": "nds/Super Scribblenauts (USA) (En,Fr,Es,Pt).zip",
+      "link": "https://smg.farfleet.com/nds/Super%20Scribblenauts%20%28USA%29%20%28En%2CFr%2CEs%2CPt%29.zip",
+      "core": "nds"
     }
   ],
   "nes": [
@@ -1435,6 +2641,36 @@
       "core": "nes"
     },
     {
+      "name": "Bomberman (USA).zip",
+      "path": "nes/Bomberman (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Bomberman%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Bomberman II (USA).zip",
+      "path": "nes/Bomberman II (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Bomberman%20II%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Castlevania (USA).zip",
+      "path": "nes/Castlevania (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Castlevania%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Castlevania II - Simon's Quest (USA).zip",
+      "path": "nes/Castlevania II - Simon's Quest (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Castlevania%20II%20-%20Simon%27s%20Quest%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Castlevania III - Dracula's Curse (USA).zip",
+      "path": "nes/Castlevania III - Dracula's Curse (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Castlevania%20III%20-%20Dracula%27s%20Curse%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Celeste Mario DELUXE.7z",
       "path": "nes/Celeste Mario DELUXE.7z",
       "link": "https://smg.farfleet.com/nes/Celeste%20Mario%20DELUXE.7z",
@@ -1453,6 +2689,12 @@
       "core": "nes"
     },
     {
+      "name": "Contra (USA).zip",
+      "path": "nes/Contra (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Contra%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Contra Force (USA).zip",
       "path": "nes/Contra Force (USA).zip",
       "link": "https://smg.farfleet.com/nes/Contra%20Force%20%28USA%29.zip",
@@ -1465,15 +2707,45 @@
       "core": "nes"
     },
     {
+      "name": "Dig Dug II - Trouble in Paradise (USA).zip",
+      "path": "nes/Dig Dug II - Trouble in Paradise (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Dig%20Dug%20II%20-%20Trouble%20in%20Paradise%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "DKNESCollection.7z",
       "path": "nes/DKNESCollection.7z",
       "link": "https://smg.farfleet.com/nes/DKNESCollection.7z",
       "core": "nes"
     },
     {
+      "name": "Donkey Kong (World) (Rev 1).zip",
+      "path": "nes/Donkey Kong (World) (Rev 1).zip",
+      "link": "https://smg.farfleet.com/nes/Donkey%20Kong%20%28World%29%20%28Rev%201%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Double Dribble.7z",
       "path": "nes/Double Dribble.7z",
       "link": "https://smg.farfleet.com/nes/Double%20Dribble.7z",
+      "core": "nes"
+    },
+    {
+      "name": "Dr. Mario (Europe).zip",
+      "path": "nes/Dr. Mario (Europe).zip",
+      "link": "https://smg.farfleet.com/nes/Dr.%20Mario%20%28Europe%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Duck Hunt (World).zip",
+      "path": "nes/Duck Hunt (World).zip",
+      "link": "https://smg.farfleet.com/nes/Duck%20Hunt%20%28World%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "DuckTales (USA).zip",
+      "path": "nes/DuckTales (USA).zip",
+      "link": "https://smg.farfleet.com/nes/DuckTales%20%28USA%29.zip",
       "core": "nes"
     },
     {
@@ -1537,6 +2809,12 @@
       "core": "nes"
     },
     {
+      "name": "Final Fantasy (USA).zip",
+      "path": "nes/Final Fantasy (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Final%20Fantasy%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Final Fantasy 2 (J) [hM02][T-Eng1.03].7z",
       "path": "nes/Final Fantasy 2 (J) [hM02][T-Eng1.03].7z",
       "link": "https://smg.farfleet.com/nes/Final%20Fantasy%202%20%28J%29%20%5BhM02%5D%5BT-Eng1.03%5D.7z",
@@ -1546,6 +2824,18 @@
       "name": "Final Fantasy 3 (J) [T-Eng][a13].7z",
       "path": "nes/Final Fantasy 3 (J) [T-Eng][a13].7z",
       "link": "https://smg.farfleet.com/nes/Final%20Fantasy%203%20%28J%29%20%5BT-Eng%5D%5Ba13%5D.7z",
+      "core": "nes"
+    },
+    {
+      "name": "Galaga (Europe).zip",
+      "path": "nes/Galaga (Europe).zip",
+      "link": "https://smg.farfleet.com/nes/Galaga%20%28Europe%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Gun.Smoke (USA).zip",
+      "path": "nes/Gun.Smoke (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Gun.Smoke%20%28USA%29.zip",
       "core": "nes"
     },
     {
@@ -1561,6 +2851,24 @@
       "core": "nes"
     },
     {
+      "name": "Kirby's Adventure (USA).zip",
+      "path": "nes/Kirby's Adventure (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Kirby%27s%20Adventure%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Legend of Zelda, The (USA).zip",
+      "path": "nes/Legend of Zelda, The (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Legend%20of%20Zelda%2C%20The%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Lode Runner (USA).zip",
+      "path": "nes/Lode Runner (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Lode%20Runner%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Mach Rider.7z",
       "path": "nes/Mach Rider.7z",
       "link": "https://smg.farfleet.com/nes/Mach%20Rider.7z",
@@ -1573,6 +2881,72 @@
       "core": "nes"
     },
     {
+      "name": "Mega Man (USA).zip",
+      "path": "nes/Mega Man (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Mega%20Man%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Mega Man 2 (USA).zip",
+      "path": "nes/Mega Man 2 (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Mega%20Man%202%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Mega Man 3 (USA).zip",
+      "path": "nes/Mega Man 3 (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Mega%20Man%203%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Mega Man 4 (USA).zip",
+      "path": "nes/Mega Man 4 (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Mega%20Man%204%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Mega Man 5 (USA).zip",
+      "path": "nes/Mega Man 5 (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Mega%20Man%205%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Mega Man 6 (USA).zip",
+      "path": "nes/Mega Man 6 (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Mega%20Man%206%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Metal Gear (USA).zip",
+      "path": "nes/Metal Gear (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Metal%20Gear%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Metroid (USA).zip",
+      "path": "nes/Metroid (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Metroid%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Mike Tyson's Punch-Out!! (Japan, USA) (En).zip",
+      "path": "nes/Mike Tyson's Punch-Out!! (Japan, USA) (En).zip",
+      "link": "https://smg.farfleet.com/nes/Mike%20Tyson%27s%20Punch-Out%21%21%20%28Japan%2C%20USA%29%20%28En%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Nintendo World Cup (USA).zip",
+      "path": "nes/Nintendo World Cup (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Nintendo%20World%20Cup%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Pac-Man (Europe).zip",
+      "path": "nes/Pac-Man (Europe).zip",
+      "link": "https://smg.farfleet.com/nes/Pac-Man%20%28Europe%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Pinball (Japan, USA) (En).zip",
       "path": "nes/Pinball (Japan, USA) (En).zip",
       "link": "https://smg.farfleet.com/nes/Pinball%20%28Japan%2C%20USA%29%20%28En%29.zip",
@@ -1582,6 +2956,18 @@
       "name": "Pro Wrestling (USA) (Rev 1).zip",
       "path": "nes/Pro Wrestling (USA) (Rev 1).zip",
       "link": "https://smg.farfleet.com/nes/Pro%20Wrestling%20%28USA%29%20%28Rev%201%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Rad Racer (USA).zip",
+      "path": "nes/Rad Racer (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Rad%20Racer%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Road Fighter (Japan).zip",
+      "path": "nes/Road Fighter (Japan).zip",
+      "link": "https://smg.farfleet.com/nes/Road%20Fighter%20%28Japan%29.zip",
       "core": "nes"
     },
     {
@@ -1615,9 +3001,39 @@
       "core": "nes"
     },
     {
+      "name": "Super C (USA).zip",
+      "path": "nes/Super C (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Super%20C%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Super Mario Bros 3Mix.7z",
       "path": "nes/Super Mario Bros 3Mix.7z",
       "link": "https://smg.farfleet.com/nes/Super%20Mario%20Bros%203Mix.7z",
+      "core": "nes"
+    },
+    {
+      "name": "Super Mario Bros. (Europe).zip",
+      "path": "nes/Super Mario Bros. (Europe).zip",
+      "link": "https://smg.farfleet.com/nes/Super%20Mario%20Bros.%20%28Europe%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Super Mario Bros. 2 (USA).zip",
+      "path": "nes/Super Mario Bros. 2 (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Super%20Mario%20Bros.%202%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Super Mario Bros. 2.zip",
+      "path": "nes/Super Mario Bros. 2.zip",
+      "link": "https://smg.farfleet.com/nes/Super%20Mario%20Bros.%202.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Super Mario Bros. 3 (USA).zip",
+      "path": "nes/Super Mario Bros. 3 (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Super%20Mario%20Bros.%203%20%28USA%29.zip",
       "core": "nes"
     },
     {
@@ -1633,6 +3049,12 @@
       "core": "nes"
     },
     {
+      "name": "Tecmo Bowl (USA).zip",
+      "path": "nes/Tecmo Bowl (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Tecmo%20Bowl%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
       "name": "Tennis.7z",
       "path": "nes/Tennis.7z",
       "link": "https://smg.farfleet.com/nes/Tennis.7z",
@@ -1642,6 +3064,12 @@
       "name": "Tetris (USA) (Tengen) (Unl).zip",
       "path": "nes/Tetris (USA) (Tengen) (Unl).zip",
       "link": "https://smg.farfleet.com/nes/Tetris%20%28USA%29%20%28Tengen%29%20%28Unl%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Tetris (USA).zip",
+      "path": "nes/Tetris (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Tetris%20%28USA%29.zip",
       "core": "nes"
     },
     {
@@ -1661,14 +3089,52 @@
       "path": "nes/Wrecking Crew.7z",
       "link": "https://smg.farfleet.com/nes/Wrecking%20Crew.7z",
       "core": "nes"
+    },
+    {
+      "name": "Xevious - The Avenger (USA).zip",
+      "path": "nes/Xevious - The Avenger (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Xevious%20-%20The%20Avenger%20%28USA%29.zip",
+      "core": "nes"
+    },
+    {
+      "name": "Zelda II - The Adventure of Link (USA).zip",
+      "path": "nes/Zelda II - The Adventure of Link (USA).zip",
+      "link": "https://smg.farfleet.com/nes/Zelda%20II%20-%20The%20Adventure%20of%20Link%20%28USA%29.zip",
+      "core": "nes"
     }
   ],
   "ngp": [
+    {
+      "name": "Metal Slug - 1st Mission (World) (En,Ja).zip",
+      "path": "NGP/Metal Slug - 1st Mission (World) (En,Ja).zip",
+      "link": "https://smg.farfleet.com/NGP/Metal%20Slug%20-%201st%20Mission%20%28World%29%20%28En%2CJa%29.zip",
+      "core": "ngp"
+    },
+    {
+      "name": "Metal Slug - 2nd Mission (World) (En,Ja).zip",
+      "path": "NGP/Metal Slug - 2nd Mission (World) (En,Ja).zip",
+      "link": "https://smg.farfleet.com/NGP/Metal%20Slug%20-%202nd%20Mission%20%28World%29%20%28En%2CJa%29.zip",
+      "core": "ngp"
+    },
     {
       "name": "Sonic The Hedgehog - Pocket Adventure.zip",
       "path": "NGP/Sonic The Hedgehog - Pocket Adventure.zip",
       "link": "https://smg.farfleet.com/NGP/Sonic%20The%20Hedgehog%20-%20Pocket%20Adventure.zip",
       "core": "ngp"
+    }
+  ],
+  "psx": [
+    {
+      "name": "100% Star (Europe).zip",
+      "path": "psx/100% Star (Europe).zip",
+      "link": "https://smg.farfleet.com/psx/100%25%20Star%20%28Europe%29.zip",
+      "core": "psx"
+    },
+    {
+      "name": "Doom (USA).zip",
+      "path": "psx/Doom (USA).zip",
+      "link": "https://smg.farfleet.com/psx/Doom%20%28USA%29.zip",
+      "core": "psx"
     }
   ],
   "sfc": [
@@ -1703,6 +3169,72 @@
       "core": "snes"
     },
     {
+      "name": "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).zip",
+      "path": "sfc/Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).zip",
+      "link": "https://smg.farfleet.com/sfc/Donkey%20Kong%20Country%203%20-%20Dixie%20Kong%27s%20Double%20Trouble%21%20%28USA%29%20%28En%2CFr%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Earthbound - Radiation's Halloween - Bad Fur Day Edition v1.08 (2009)(Radiation)[hack] (patched).zip",
+      "path": "sfc/Earthbound - Radiation's Halloween - Bad Fur Day Edition v1.08 (2009)(Radiation)[hack] (patched).zip",
+      "link": "https://smg.farfleet.com/sfc/Earthbound%20-%20Radiation%27s%20Halloween%20-%20Bad%20Fur%20Day%20Edition%20v1.08%20%282009%29%28Radiation%29%5Bhack%5D%20%28patched%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Earthworm Jim (USA).zip",
+      "path": "sfc/Earthworm Jim (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Earthworm%20Jim%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Earthworm Jim 2 (USA).zip",
+      "path": "sfc/Earthworm Jim 2 (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Earthworm%20Jim%202%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FE).zip",
+      "path": "sfc/FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FE).zip",
+      "link": "https://smg.farfleet.com/sfc/FIFA%20-%20Road%20to%20World%20Cup%2098%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CSv%29%20%28A8FE%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "FIFA International Soccer (USA).zip",
+      "path": "sfc/FIFA International Soccer (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/FIFA%20International%20Soccer%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv).zip",
+      "path": "sfc/FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv).zip",
+      "link": "https://smg.farfleet.com/sfc/FIFA%20Soccer%2096%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CSv%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv).zip",
+      "path": "sfc/FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv).zip",
+      "link": "https://smg.farfleet.com/sfc/FIFA%20Soccer%2097%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%2CSv%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Final Fantasy - Mystic Quest (USA).zip",
+      "path": "sfc/Final Fantasy - Mystic Quest (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Final%20Fantasy%20-%20Mystic%20Quest%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Final Fantasy II (USA).zip",
+      "path": "sfc/Final Fantasy II (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Final%20Fantasy%20II%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Final Fantasy III (USA).zip",
+      "path": "sfc/Final Fantasy III (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Final%20Fantasy%20III%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
       "name": "Goof Troop (USA).zip",
       "path": "sfc/Goof Troop (USA).zip",
       "link": "https://smg.farfleet.com/sfc/Goof%20Troop%20%28USA%29.zip",
@@ -1715,9 +3247,57 @@
       "core": "snes"
     },
     {
+      "name": "Ken Griffey Jr. Presents Major League Baseball (USA).zip",
+      "path": "sfc/Ken Griffey Jr. Presents Major League Baseball (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Ken%20Griffey%20Jr.%20Presents%20Major%20League%20Baseball%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Kirby Super Star.zip",
+      "path": "sfc/Kirby Super Star.zip",
+      "link": "https://smg.farfleet.com/sfc/Kirby%20Super%20Star.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Kirby's Dream Land 3 (USA).zip",
+      "path": "sfc/Kirby's Dream Land 3 (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Kirby%27s%20Dream%20Land%203%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Lemmings (USA).zip",
+      "path": "sfc/Lemmings (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Lemmings%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Mega Man X2 (USA).zip",
+      "path": "sfc/Mega Man X2 (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Mega%20Man%20X2%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Mega Man X3 (USA).zip",
+      "path": "sfc/Mega Man X3 (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Mega%20Man%20X3%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
       "name": "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).zip",
       "path": "sfc/Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).zip",
       "link": "https://smg.farfleet.com/sfc/Mickey%20Mania%20-%20The%20Timeless%20Adventures%20of%20Mickey%20Mouse%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Mortal Kombat (USA).zip",
+      "path": "sfc/Mortal Kombat (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Mortal%20Kombat%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Mortal Kombat II (USA).zip",
+      "path": "sfc/Mortal Kombat II (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Mortal%20Kombat%20II%20%28USA%29.zip",
       "core": "snes"
     },
     {
@@ -1739,6 +3319,18 @@
       "core": "snes"
     },
     {
+      "name": "Secret of Mana (USA).zip",
+      "path": "sfc/Secret of Mana (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Secret%20of%20Mana%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Side Pocket (USA).zip",
+      "path": "sfc/Side Pocket (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Side%20Pocket%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
       "name": "Sonic in SMW.7z",
       "path": "sfc/Sonic in SMW.7z",
       "link": "https://smg.farfleet.com/sfc/Sonic%20in%20SMW.7z",
@@ -1757,9 +3349,57 @@
       "core": "snes"
     },
     {
+      "name": "Star Fox.zip",
+      "path": "sfc/Star Fox.zip",
+      "link": "https://smg.farfleet.com/sfc/Star%20Fox.zip",
+      "core": "snes"
+    },
+    {
       "name": "Starwing 2 (Japan) (Beta) (T-En by Aeon Genesis v1.00) (Add by ManuLoewe v2010720) (Add by Josete2k v1.0) (n).zip",
       "path": "sfc/Starwing 2 (Japan) (Beta) (T-En by Aeon Genesis v1.00) (Add by ManuLoewe v2010720) (Add by Josete2k v1.0) (n).zip",
       "link": "https://smg.farfleet.com/sfc/Starwing%202%20%28Japan%29%20%28Beta%29%20%28T-En%20by%20Aeon%20Genesis%20v1.00%29%20%28Add%20by%20ManuLoewe%20v2010720%29%20%28Add%20by%20Josete2k%20v1.0%29%20%28n%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Street Fighter II (USA).zip",
+      "path": "sfc/Street Fighter II (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Street%20Fighter%20II%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Street Fighter II Turbo (USA).zip",
+      "path": "sfc/Street Fighter II Turbo (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Street%20Fighter%20II%20Turbo%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Super Castlevania IV (USA).zip",
+      "path": "sfc/Super Castlevania IV (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Super%20Castlevania%20IV%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Super Mario All-Stars + Super Mario World.zip",
+      "path": "sfc/Super Mario All-Stars + Super Mario World.zip",
+      "link": "https://smg.farfleet.com/sfc/Super%20Mario%20All-Stars%20%2B%20Super%20Mario%20World.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Super Mario RPG - Legend of the Seven Stars (USA).zip",
+      "path": "sfc/Super Mario RPG - Legend of the Seven Stars (USA).zip",
+      "link": "https://smg.farfleet.com/sfc/Super%20Mario%20RPG%20-%20Legend%20of%20the%20Seven%20Stars%20%28USA%29.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Super Mario World 2_ Yoshi's Island.zip",
+      "path": "sfc/Super Mario World 2_ Yoshi's Island.zip",
+      "link": "https://smg.farfleet.com/sfc/Super%20Mario%20World%202_%20Yoshi%27s%20Island.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Super Punch-Out!! (J) (NP).zip",
+      "path": "sfc/Super Punch-Out!! (J) (NP).zip",
+      "link": "https://smg.farfleet.com/sfc/Super%20Punch-Out%21%21%20%28J%29%20%28NP%29.zip",
       "core": "snes"
     },
     {
@@ -1772,6 +3412,12 @@
       "name": "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA) [FastROM hack by kandowontu v1.1].zip",
       "path": "sfc/Teenage Mutant Ninja Turtles IV - Turtles in Time (USA) [FastROM hack by kandowontu v1.1].zip",
       "link": "https://smg.farfleet.com/sfc/Teenage%20Mutant%20Ninja%20Turtles%20IV%20-%20Turtles%20in%20Time%20%28USA%29%20%5BFastROM%20hack%20by%20kandowontu%20v1.1%5D.zip",
+      "core": "snes"
+    },
+    {
+      "name": "Tetris Attack (U) [!].zip",
+      "path": "sfc/Tetris Attack (U) [!].zip",
+      "link": "https://smg.farfleet.com/sfc/Tetris%20Attack%20%28U%29%20%5B%21%5D.zip",
       "core": "snes"
     },
     {
